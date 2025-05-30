@@ -1,0 +1,80 @@
+﻿
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: rgb(226, 223, 223);
+}
+
+/* Genel kullanıcı site stilleri */
+
+/* Navbar */
+/* Navbar */
+.navbar {
+    
+    padding: 0; /* padding sıfırla ki şerit tam otursun */
+    height: 80px; /* Sabit yükseklik ver */
+    display: flex;
+    align-items: center;
+    box-shadow: none;
+    border-bottom: none;
+    width: 100%;
+}
+
+    /* Navbar bağlantıları */
+    .navbar .nav-link {
+        font-size: 18px;
+        padding: 12px 24px;
+        color: white;
+        font-weight: 500;
+        text-align: center;
+        white-space: nowrap;
+        transition: background 0.3s ease;
+    }
+
+        /* Hover efekti */
+        .navbar .nav-link:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            border-radius: 8px;
+        }
+
+
+
+.navbar-brand img {
+    height: 130px; /* Logo yüksekliği */
+    max-height: 100%; /* Şeridi aşmasın */
+    padding: 10px 0;
+}
+
+/* Menü ortalama */
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+
+
+@media (max-width: 768px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar .nav-link {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .navbar {
+        height: auto;
+    }
+
+    .navbar-brand img {
+        height: 50px;
+    }
+}
+
+

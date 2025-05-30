@@ -1,0 +1,61 @@
+﻿@model List<HomeDataModel>
+
+
+@if (Model != null && Model.Count > 0)
+{
+	<table class="table  table-hover">
+		<thead>
+			<tr>
+				<th>Id</th>	
+				<th>Başlık</th>
+				<th>Kısa Açıklama</th>			
+				<th>Resim</th>				
+				<th>Sil</th>
+				<th>Güncelle</th>
+			</tr>		
+		</thead>
+
+		<tbody>
+			@foreach (var item in Model)
+			{
+				<tr class="list">
+					<td>@item.Id</td>
+					<td>@item.Title</td>
+					<td>@item.ShortDescription</td>					
+					<td><img src="@item.ImageUrl" class="image-style" /></td>				
+					<td>
+						<button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#divDelete" onclick="SetDeleteItem(@item.Id);">
+							Sil
+						</button>
+					</td>
+					<td>
+						<button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#divAdd"
+								data-id="@item.Id"
+								data-title="@item.Title"
+								data-shortdescription="@item.ShortDescription"								
+								data-imageUrl="@item.ImageUrl"								
+								data-createdby="@item.CreatedBy"
+								data-createddate="@item.CreatedDate"
+								onclick="SetUpdateItem(this);">
+							Güncelle
+						</button>
+					</td>
+
+				</tr>
+			}
+		</tbody>
+
+	</table>
+
+}
+else
+{
+	<div class="alert alert-warning text-center mt-2 d-flex flex-column align-items-center" role="alert">
+		<span>İlgili Kriterlere Göre Kayıt Bulunamadı.</span>
+		<i class="bi bi-exclamation-triangle-fill fs-1 mt-2"></i> <!-- Büyük ikon ve üst boşluk -->
+	</div>
+}
+
+
+
+

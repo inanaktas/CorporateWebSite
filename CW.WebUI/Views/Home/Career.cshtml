@@ -1,0 +1,30 @@
+﻿<!-- home page section -->
+
+<div class="row text-center">
+    <div id="careerList" class="mx-auto">        
+    </div>
+</div>
+
+
+<!-- end home page section -->
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            GetHomePageList();
+        });
+
+        function GetHomePageList() {
+            $.ajax({
+                url: '/Home/CareerList', 
+                type: 'GET',
+                contentType: 'application/json',
+                success: function (response) {
+                    $("#careerList").html(response);
+                },
+                error: function (hata) {
+                    alert("Veri alınırken hata oluştu!");
+                }
+            });
+        }
+    </script>
+}

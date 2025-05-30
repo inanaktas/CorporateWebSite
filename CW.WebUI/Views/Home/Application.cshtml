@@ -1,0 +1,176 @@
+﻿<!-- genel kullanıcı iş başvuru formu -->
+<div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg rounded-4 border-0">
+                <div class="card-header bg-success text-white text-center fs-5 fw-semibold">
+                    İş Başvuru Formu
+                </div>
+                <div class="card-body p-4">
+                    <form id="frmHome">
+                        <input type="hidden" name="Id" id="id" value="0" />
+                        <input type="hidden" id="experience" name="Experience" value="" />
+                        <input type="hidden" id="jobCategory" name="JobCategory" value="" />
+                        <input type="hidden" id="skills" name="Skills" value="" />
+
+                        <div class="form-group mb-3">
+                            <label for="jobCategoryId" class="form-label">Başvurmak İstediğiniz Pozisyon</label>
+                            <select class="form-control" id="jobCategoryId" name="JobCategoryId"></select>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="name" class="form-label">Adınız</label>
+                            <input type="text" class="form-control" id="name" name="Name" required />
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="surname" class="form-label">Soyadınız</label>
+                            <input type="text" class="form-control" id="surname" name="Surname" required />
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="email" class="form-label">E-Posta Adresiniz</label>
+                            <input type="email" class="form-control" id="email" name="Email" required />
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label class="form-label">Bilgisayar Bilgisi</label><br />
+                            <div id="skillsList"></div>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="experienceId" class="form-label">Bu Alandaki Deneyim Süreniz</label>
+                            <select class="form-control" id="experienceId" name="ExperienceId"></select>
+                        </div>
+
+                        <div class="form-group mb-3">
+                            <label for="shortDescription" class="form-label">Kendinizi tanıtınız</label>
+                            <textarea class="form-control" id="shortDescription" name="ShortDescription" placeholder="Hobileriniz, ilgi alanlarınız..." required></textarea>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="button" class="btn btn-success px-4" id="btnSave">Kaydet</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- genel kullanıcı iş başvuru formu son -->
+@section Scripts {
+    
+    <script type="text/javascript">
+    $(document).ready(function () {
+        LoadExperiences();
+        LoadSkills();
+        LoadJobCategories();            
+    });
+
+        function GetApplicationFormData() {
+            let formData = {};
+
+            // skillIds hariç diğer alanları al
+            $.each($('#frmHome').serializeArray(), function () {
+                if (this.name !== "skillIds") {
+                    formData[this.name] = this.value;
+                }
+            });
+
+            // Skill ID'ler (checkbox'lar)
+            formData["SkillIds"] = [];
+            $("input[name='skillIds']:checked").each(function () {
+                formData["SkillIds"].push(parseInt($(this).val()));
+            });
+
+            // Sayısal dönüşümler
+            formData["Id"] = parseInt(formData["Id"]);
+            formData["JobCategoryId"] = parseInt(formData["JobCategoryId"]);
+            formData["ExperienceId"] = parseInt(formData["ExperienceId"]);
+
+            // Hidden alanlardan gelen ad verilerini al
+            formData["Experience"] = $("#experienceId option:selected").text();
+            formData["JobCategory"] = $("#jobCategoryId option:selected").text();
+
+            // Skill adlarının alınması
+            let selectedSkills = [];
+            $("input[name='skillIds']:checked").each(function () {
+                selectedSkills.push($(this).next("label").text());
+            });
+            formData["Skills"] = selectedSkills;
+
+            return JSON.stringify(formData);
+        }
+            
+
+        $("#btnSave").click(function (e) {
+            e.preventDefault();
+
+            if (!$("#frmHome").valid()) return;
+
+            let jsonData = GetApplicationFormData();          
+
+            $.ajax({                         
+                url: 'https://localhost:2025/api/Application/Save',
+                type: 'post',
+                contentType: 'application/json',
+                data: jsonData,
+                success: function (res) {
+                    alert("Kayıt başarılı!");
+                    $('#frmHome')[0].reset();
+                },
+                error: function (err) {
+                    console.error("Hata oluştu:", err);
+                    alert("Kayıt başarısız!");
+                }
+            });
+        });
+        
+
+    function LoadJobCategories() {
+        $.get("https://localhost:2025/api/LookUp/GetJobCategories", function (data) {
+            data.forEach(function (item) {
+                $("#jobCategoryId").append(`<option value="${item.id}">${item.jobName}</option>`);
+            });
+        });
+    }
+
+    function LoadExperiences() {
+        $.get("https://localhost:2025/api/LookUp/GetExperiences", function (data) {
+            data.forEach(function (item) {
+                $("#experienceId").append(`<option value="${item.id}">${item.year}</option>`);
+            });
+        });
+    }
+
+    function LoadSkills() {
+        $.get("https://localhost:2025/api/LookUp/GetSkills", function (data) {
+            data.forEach(function (skill) {
+                $("#skillsList").append(`
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="skillIds" value="${skill.id}" />
+                        <label class="form-check-label">${skill.skillName}</label>
+                    </div>
+                `);
+            });
+        });
+    }
+
+    
+    $("#frmHome").validate({
+        rules: {
+            Name: { required: true, minlength: 3 },
+            Surname: { required: true, minlength: 3 },
+            Email: { required: true, email: true },
+            ShortDescription: { required: true, minlength: 5 }
+        },
+        messages: {
+            Name: { required: "Ad giriniz", minlength: "En az 3 karakter" },
+            Surname: { required: "Soyad giriniz", minlength: "En az 3 karakter" },
+            Email: { required: "E-posta giriniz", email: "Geçerli format değil" },
+            ShortDescription: { required: "Açıklama giriniz", minlength: "En az 5 karakter" }
+        }
+    });
+</script>
+
+}

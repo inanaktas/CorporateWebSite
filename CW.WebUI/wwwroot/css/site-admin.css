@@ -1,0 +1,100 @@
+﻿html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+}
+
+.error {
+    color: red;
+}
+
+.panel-title {
+    background-color: cornflowerblue;
+    font-size: 20px;
+    color: white;
+}
+
+
+.list, th {
+    vertical-align: middle;
+}
+
+.image-style {
+    height: 80px;
+}
+
+
+
+.footer {
+    background-color: #222;
+    color: white;
+}
+
+    .footer a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.5rem;
+    }
+
+        .footer a:hover {
+            color: #f8f9fa;
+        }
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand,
+.navbar-nav .nav-link,
+.dropdown-toggle {
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-nav .nav-link {
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+    .navbar-nav .nav-link::after {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: #E63E3A; /* Hayalhanem kırmızısı */
+        transition: width 0.3s;
+    }
+
+    .navbar-nav .nav-link:hover {
+        color: #E63E3A !important;
+    }
+
+        .navbar-nav .nav-link:hover::after {
+            width: 100%;
+        }
+
+
+.card {
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}

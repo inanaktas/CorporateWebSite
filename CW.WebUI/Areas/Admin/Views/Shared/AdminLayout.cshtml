@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Admin Panel</title>
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/site-admin.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+	
+
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+			<div class="container">
+				<a class="navbar-brand fw-bold d-flex align-items-center" href="~/Admin/Home/Index">
+					<img src="~/images/IA-removebg-preview.png" alt="Logo" style="height: 50px;" class="me-2" />
+					Admin Paneli
+				</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent"
+						aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse justify-content-center" id="navbarContent">
+					<ul class="navbar-nav mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link fw-semibold text-dark" href="~/Admin/Home/Index">Anasayfa</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link fw-semibold text-dark" href="~/Admin/AboutUs/Index">Hakkımızda</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link fw-semibold text-dark" href="~/Admin/Project/Index">Projeler</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link fw-semibold text-dark" href="~/Admin/Team/Index">Ekibimiz</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link fw-semibold text-dark" href="~/Admin/Career/Index">Kariyer</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link fw-semibold text-dark" href="~/Admin/Application/Index">Başvurular</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link fw-semibold text-dark" href="~/Admin/Feedback/Index">Görüş & Öneriler</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="dropdown ms-3">
+					<span class="fw-bold dropdown-toggle" id="nameId" style="cursor: pointer;" data-bs-toggle="dropdown" aria-expanded="false"></span>
+					<ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nameId">
+						<li><button class="dropdown-item btn btn-danger" onclick="logout()">Çıkış</button></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	
+
+	<div class="container">
+		<main role="main" class="pb-3 mt-3">
+			@RenderBody()
+		</main>
+	</div>
+
+
+	<script src="~/lib/jquery/dist/jquery.min.js"></script>
+	<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="~/lib/jquery-validation/dist/jquery.validate.js"></script>
+	<script src="~/js/site.js" asp-append-version="true"></script>
+	
+
+
+	<script type="text/javascript">
+
+
+		let jwtToken = localStorage.getItem("jwt");
+		if (jwtToken != null && jwtToken != "") {
+
+			$.ajax({
+				url: 'https://localhost:2025/api/Authentication/CheckSession',
+				type: 'post',
+				contentType: 'application/json',
+				headers: {
+					'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+				},
+				success: function (response) {
+
+					if (response != null) {
+						$('#nameId').text(response.name.toUpperCase() + " " + response.surname.toUpperCase());
+					}
+					else {
+						window.location.href = "/Admin/Login/AdminLogin";
+					}
+
+				},
+				error: function (err, status, msj) {
+					window.location.href = "/Admin/Login/AdminLogin";
+				}
+			});
+
+		}
+		else {
+			window.location.href = "/Admin/Login/AdminLogin";
+		}
+
+
+		$('#nameId').click(function () {
+			$('#logoutButton').toggleClass('show');
+		});
+
+		function logout() {
+			localStorage.removeItem("jwt");
+			window.location.href = "/Admin/Login/AdminLogin";
+		}
+
+
+	</script>
+
+
+	@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

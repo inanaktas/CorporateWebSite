@@ -1,0 +1,134 @@
+﻿<!-- Admin section  İş Başvuruları Listesi -->
+<div class="card">
+    <div class="card-header bg-secondary text-white">
+        <h6 class="mt-2">İş Başvuruları</h6>
+    </div>
+    <div class="card-body">
+        <div id="divResult">
+            <table class="table table-bordered" id="tblApplications">
+                <thead>
+                    <tr>
+                        <th>Ad Soyad</th>
+                        <th>Email</th>
+                        <th>Pozisyon</th>
+                        <th>Deneyim</th>
+                        <th>Yetenekler</th>
+                        <th>Açıklama</th>
+                        <th>İşlem</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- Admin section  İş Başvuruları Listesi Son -->
+
+<!-- Delete Modal -->
+<div class="modal fade" id="divDelete" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Onay</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <form id="frmDelete">
+                    <input type="hidden" name="pId" id="pId" />
+                </form>
+                Kaydı silme işlemini onaylıyor musunuz ?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+                <button type="button" class="btn btn-danger" id="btnDelete">Sil</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            GetApplications();
+
+            // Sil butonuna tıklanınca ID'yi alıp gizli input'a yaz
+            $(document).on("click", ".btnDelete", function () {
+                let id = $(this).data("id");
+                $("#pId").val(id);
+            });
+
+            // Modal'daki Sil onayı butonuna tıklanınca DELETE isteği gönder
+            $('#btnDelete').click(function () {
+                let id = $('#pId').val(); 
+
+                $.ajax({
+                    url: 'https://localhost:2025/api/Application/DeleteApplication',
+                    type: 'delete',
+                    contentType: 'application/json',
+                        data: JSON.stringify({ pId: id }),
+                    headers: {
+                        'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+                    },
+                    success: function () {
+                        $('#divDelete').modal('hide');
+                        $('#tblApplications tbody').empty();
+                        GetApplications();
+                    },
+                    error: function (err) {
+                        alert("Silme başarısız: " + err.responseText);
+                    }
+                });
+            });
+        });
+
+        function GetApplications() {
+            $.ajax({
+                url: 'https://localhost:2025/api/Application/GetAllApplications',
+                type: 'get',
+                contentType: 'application/json',
+                headers: {
+                    'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+                },
+                success: function (response) {
+                    if (Array.isArray(response)) {
+                        $("#tblApplications tbody").empty();
+                       response.forEach(function (item) {
+                            // jobCategory ve experience değerlerini güvenli kontrol et
+                            let jobCategory = (item.jobCategory ?? "").toLowerCase();
+                            let experience = (item.experience ?? "").toLowerCase();
+
+                            // "backend" içeriyor VE deneyim 1-3 yıldan fazla gibi bir kontrol gerekiyorsa
+                            //backend acil aranan iş ise kırmızı olarak admine göster
+                            let isHighlighted = jobCategory.includes("backend");
+
+                            let rowClass = isHighlighted ? 'table-danger fw-bold' : '';
+
+                            //veriler partial list olarak değil direk index içinde alınıyor.
+                            let row = `
+                                    <tr class="${rowClass}">
+                                    <td>${item.name} ${item.surname}</td>
+                                    <td>${item.email}</td>
+                                    <td>${item.jobCategory}</td>
+                                    <td>${item.experience}</td>
+                                    <td>${item.skills.join(", ")}</td>
+                                    <td>${item.shortDescription}</td>
+                                    <td>
+                                        <button class="btn btn-danger btn-sm btnDelete" 
+                                            data-id="${item.id}" 
+                                            data-bs-toggle="modal" 
+                                            data-bs-target="#divDelete">Sil</button>
+                                    </td>
+                                </tr>`;
+                            $("#tblApplications tbody").append(row);
+                        });
+                    }
+                },
+                error: function (hata) {
+                    alert("Hatalı işlem: " + hata.statusText);
+                }
+            });
+        }
+    </script>
+}

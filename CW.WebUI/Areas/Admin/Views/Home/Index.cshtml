@@ -1,0 +1,296 @@
+﻿<div class="card mb-4">
+	<div class="card-header bg-primary text-white">
+		<h6 class="mt-2">Yeni Kayıt Ekle / Güncelle</h6>
+	</div>
+	<div class="card-body">
+		<form id="frmHome">
+			<input type="hidden" name="Id" id="id" value="0" />
+			<input type="hidden" name="CreatedBy" id="CreatedBy" value="0" />
+			<input type="hidden" name="CreatedDate" id="CreatedDate" value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss")" />
+
+			<div class="mb-3">
+				<label for="tbTitle" class="form-label">Başlık:</label>
+				<input type="text" id="tbTitle" name="Title" class="form-control" required>
+			</div>
+
+			<div class="mb-3">
+				<label for="tbShortDesc" class="form-label">Kısa Açıklama:</label>
+				<input type="text" id="tbShortDesc" name="ShortDescription" class="form-control" required>
+			</div>			
+
+			<div class="mb-3 d-flex align-items-end gap-2">
+				<div style="width: 300px;">
+					<label for="img" class="form-label">Fotoğraf Yükle:</label>
+					<input type="file" id="img" name="ImageUrl" class="form-control">
+				</div>
+				<div>
+					<button type="button" class="btn btn-primary" onclick="UploadFile()">
+						<i class="bi bi-upload"></i> Yükle
+					</button>
+				</div>
+			</div>
+
+			<input type="hidden" id="uploadedImagePath" name="ImageUrl">
+
+			<div class="d-flex gap-2">				
+				<button type="button" class="btn btn-success" id="btnSave">
+					<i class="bi bi-save"></i> Kaydet
+				</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<div class="card">
+	<div class="card-header bg-secondary text-white">
+		<h6 class="mt-2">Anasayfa Giriş Bilgileri</h6>
+	</div>
+	<div class="card-body">
+		<div id="divResult">
+			<!-- Liste buraya gelecek -->
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- Delete Modal -->
+<div class="modal fade" id="divDelete" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h1 class="modal-title fs-5" id="staticBackdropLabel">Onay</h1>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+
+				<form id="frmDelete">
+					<input type="hidden" name="pId" id="pId" />
+				</form>
+
+				Kaydı silme işlemini onaylıyor musunuz ?
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+				<button type="button" class="btn btn-danger" id="btnDelete">Sil</button>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Delete Modal -->
+
+@section Scripts {
+
+	<script type="text/javascript">
+
+		$(document).ready(function (){			
+			ItemList();
+		});
+
+		function ItemList()
+		{
+			$.ajax({
+				url: '/admin/Home/List',
+				type: 'get',
+				contentType: 'application/json',
+				
+				headers: {
+					'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+				},
+				success: function (response) {
+					$('#divResult').empty().append(response);					
+				},
+				error: function (err) {
+					alert("hata");
+				}
+			});
+		}
+
+		$('#btnSave').click(function (e) { 
+
+			e.preventDefault(); // Formun otomatik gönderilmesini engelle
+			if ($("#frmHome").valid()) {
+
+				//Yüklenen resimler var mı kontrol et
+				if ($('#uploadedImagePath').val() === "") {
+					alert("Lütfen en az bir resim yükleyin.");
+					return;
+				}
+
+				let jsonData = GetJSONDataFromForm('frmHome');
+				$.ajax({
+					url: 'https://localhost:2025/api/Home/SaveHomePage',
+					type: 'post',
+					contentType: 'application/json',
+					data: jsonData,
+					headers: {
+						'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+					},
+					success: function (response) {
+						 ItemList();
+						 SetAddItem();
+					},
+					error: function (err) {
+						console.error("Hata oluştu:", err);
+					}
+				});
+			}
+		});
+
+		function SetAddItem() {
+
+			$('#frmHome')[0].reset();
+
+			$('#id').val("0");
+			$('#CreatedBy').val("0");			
+			$('#tbTitle').val("");
+			$('#tbShortDesc').val("");
+			$('#uploadedImagePath').val(null);
+			
+		}
+
+		$('#btnDelete').click(function () {
+
+			
+			let jsonData = GetJSONDataFromForm('frmDelete');
+			$.ajax({
+
+				url: 'https://localhost:2025/api/Home/DeleteHomePage',
+				type: 'delete',
+				contentType: 'application/json',
+				data: jsonData,
+				headers: {
+					'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+				},
+				success: function (response) {
+					ItemList();
+					$('.modal').modal('hide');
+				},
+				error: function (err) {
+
+				}
+			});
+		});
+
+		function SetDeleteItem(id) {
+			$('#pId').val(id);
+		}
+
+		function SetUpdateItem(link) {
+			$('#tbTitle').val($(link).data("title"));
+			$('#tbShortDesc').val($(link).data("shortdescription"));			
+			$('#id').val($(link).data("id"));
+
+			var imageUrl = $(link).data("imageurl"); // Eski resim URL'si
+			$('#uploadedImagePath').val(imageUrl); // Sakla
+
+			var createdDate = $(link).data("createddate");
+
+
+			if (createdDate && createdDate.includes(".")) {
+				var parts = createdDate.split(" ");
+				var dateParts = parts[0].split(".");
+
+				var day = dateParts[0].padStart(2, '0');
+				var month = dateParts[1].padStart(2, '0');
+				var year = dateParts[2];
+
+				var formattedDate = year + "-" + month + "-" + day + "T" + (parts[1] || "00:00:00");
+
+				$('#CreatedDate').val(formattedDate);
+			}
+
+			var rawDate = $(link).data("startdate"); // "20.12.2025"
+			var parts = rawDate.split('.'); // "20", "12", "2025"
+
+			// Gün ve ayları iki haneli yapıyoruz
+			var startDay = parts[0].padStart(2, '0');
+			var startMonth = parts[1].padStart(2, '0');
+			var startYear = parts[2];
+
+			var formattedStartDate = startYear + '-' + startMonth + '-' + startDay; // YYYY-MM-DD formatına çevir
+			$('#tbStartDate').val(formattedStartDate);
+
+			var rawEndDate = $(link).data("enddate"); // "20.12.2025"
+			var partsEnd = rawEndDate.split('.'); // "20", "12", "2025"
+
+			// Gün ve ayları iki haneli yapıyoruz
+			var endDay = partsEnd[0].padStart(2, '0');
+			var endMonth = partsEnd[1].padStart(2, '0');
+			var endYear = partsEnd[2];
+
+			var formattedEndDate = endYear + '-' + endMonth + '-' + endDay; // YYYY-MM-DD formatına çevir
+			$('#tbEndDate').val(formattedEndDate);
+		}
+
+		function UploadFile() {
+			var fileInput = document.getElementById("img");
+
+			if (fileInput.files.length === 0) {
+				alert("Lütfen bir dosya seçin!");
+				return;
+			}
+
+			var formData = new FormData();
+			formData.append("file", fileInput.files[0]);
+
+			if (formData.getAll("file").length === 0) {
+				alert("Lütfen en az bir dosya seçiniz.");
+				return;
+			}
+
+			$.ajax({
+				url: 'https://localhost:2025/api/FileUpload/UploadHomeFile',
+				type: 'post',
+				data: formData,
+				processData: false,
+				contentType: false,
+				headers: {
+					'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+				},
+				success: function (response) {
+					if (response.isSuccess) {
+						$('#uploadedImagePath').val(response.filePath);
+						alert(response.message);
+					} else {
+						alert("Dosya yüklenirken hata oluştu!");
+					}
+				},
+				error: function (err) {
+					alert("Dosya yüklenirken hata oluştu!");
+					console.log(err);
+				}
+			});
+		}
+
+
+		$("#frmHome").validate({
+			rules: {
+				Title: {
+					required: true,
+					minlength: 3
+				},
+				ShortDescription: {
+					required: true,
+					minlength: 10
+				}
+			},
+			messages: {
+				Title: {
+					required: "Başlık alanı zorunludur.",
+					minlength: "Başlık en az 3 karakter olmalıdır."
+				},
+				ShortDescription: {
+					required: "Kısa açıklama alanı zorunludur.",
+					minlength: "Kısa açıklama en az 10 karakter olmalıdır."
+				}
+			}
+		});
+
+
+	</script>
+
+
+
+}

@@ -1,0 +1,28 @@
+﻿@model List<HomeDataModel>
+
+<link rel="stylesheet" href="~/css/HomePage.css" /> 
+
+
+<!-- Anasayfa -->
+@if (Model != null && Model.Any())
+{
+    <div class="home-section">
+        @foreach (var item in Model)
+        {
+            <div class="home-item">
+                <div class="home-image">
+                    <img src="@item.ImageUrl" alt="@item.Title" />
+                </div>
+                <div class="home-text">
+                    <h3>@item.Title</h3>
+                    <p>@item.ShortDescription</p>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p class="text-center">Gösterilecek veri bulunamadı.</p>
+}
+<!--Anasayfa son -->

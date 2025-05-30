@@ -1,0 +1,29 @@
+﻿@model List<CareerDataModel>
+
+
+
+@if (Model != null && Model.Any())
+{
+    <div class="container mt-5">
+        @foreach (var item in Model)
+        {
+            <div class="row align-items-center mb-4 bg-white rounded job-card p-3 border">
+                <!-- Image -->
+                <div class="col-md-4 text-center">
+                    <img src="@item.ImageUrl" alt="@item.Title" class="img-fluid rounded" style="height: 200px; object-fit: cover; width: 100%;">
+                </div>
+
+                <!-- Text Content -->
+                <div class="col-md-8">
+                    <h4 class="mb-2">@item.Title</h4>
+                    <p class="text-muted">@item.ShortDescription</p>
+                    <a href="/Home/Application" target="_blank" class="btn btn-primary apply-button">Başvur</a>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p class="text-center mt-5">Gösterilecek iş ilanı bulunamadı.</p>
+}

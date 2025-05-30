@@ -1,0 +1,797 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\CW.WebUI.bundle.scp.css",
+      "PackagePath": "staticwebassets\\CW.WebUI.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\css\\AdminLogin.css",
+      "PackagePath": "staticwebassets\\css\\AdminLogin.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\css\\Custom.css",
+      "PackagePath": "staticwebassets\\css\\Custom.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\css\\HomePage.css",
+      "PackagePath": "staticwebassets\\css\\HomePage.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\css\\site-admin.css",
+      "PackagePath": "staticwebassets\\css\\site-admin.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\css\\site-user.css",
+      "PackagePath": "staticwebassets\\css\\site-user.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\IA-removebg-preview.png",
+      "PackagePath": "staticwebassets\\images\\IA-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\IA.png",
+      "PackagePath": "staticwebassets\\images\\IA.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\about-img.jpg",
+      "PackagePath": "staticwebassets\\images\\about-img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\images\\about-img.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\client1.jpg",
+      "PackagePath": "staticwebassets\\images\\client1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\client2.jpg",
+      "PackagePath": "staticwebassets\\images\\client2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\hero-bg.png",
+      "PackagePath": "staticwebassets\\images\\hero-bg.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\s1.png",
+      "PackagePath": "staticwebassets\\images\\s1.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\s2.png",
+      "PackagePath": "staticwebassets\\images\\s2.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\s3.png",
+      "PackagePath": "staticwebassets\\images\\s3.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\slider-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\slider-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\slider-img.png",
+      "PackagePath": "staticwebassets\\images\\slider-img.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\team-1.jpg",
+      "PackagePath": "staticwebassets\\images\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\team-2.jpg",
+      "PackagePath": "staticwebassets\\images\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\team-3.jpg",
+      "PackagePath": "staticwebassets\\images\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\team-4.jpg",
+      "PackagePath": "staticwebassets\\images\\team-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\track-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\track-bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\w1.png",
+      "PackagePath": "staticwebassets\\images\\w1.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\w2.png",
+      "PackagePath": "staticwebassets\\images\\w2.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\w3.png",
+      "PackagePath": "staticwebassets\\images\\w3.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\images\\w4.png",
+      "PackagePath": "staticwebassets\\images\\w4.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsAboutUs\\00c05cde-5b50-41f6-923e-f1e2161e6961.jpeg",
+      "PackagePath": "staticwebassets\\uploadsAboutUs\\00c05cde-5b50-41f6-923e-f1e2161e6961.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsAboutUs\\2a3a46d3-10a2-4b09-bde3-858b1d6c3696.jpg",
+      "PackagePath": "staticwebassets\\uploadsAboutUs\\2a3a46d3-10a2-4b09-bde3-858b1d6c3696.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsAboutUs\\3b2d2011-d0ae-44c7-8a11-1993a77333a7.jpg",
+      "PackagePath": "staticwebassets\\uploadsAboutUs\\3b2d2011-d0ae-44c7-8a11-1993a77333a7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsAboutUs\\41ea606b-e007-4c32-9f42-4f9a3ef76c6c.jpg",
+      "PackagePath": "staticwebassets\\uploadsAboutUs\\41ea606b-e007-4c32-9f42-4f9a3ef76c6c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsAboutUs\\643473f9-d4f7-45e0-b7a8-882fdd83e250.png",
+      "PackagePath": "staticwebassets\\uploadsAboutUs\\643473f9-d4f7-45e0-b7a8-882fdd83e250.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsAboutUs\\8019b19e-ba34-48cd-af0a-d1802d73cca3.jpg",
+      "PackagePath": "staticwebassets\\uploadsAboutUs\\8019b19e-ba34-48cd-af0a-d1802d73cca3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsAboutUs\\a68fd63e-f324-44ef-b741-922f34e8153f.jpg",
+      "PackagePath": "staticwebassets\\uploadsAboutUs\\a68fd63e-f324-44ef-b741-922f34e8153f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsAboutUs\\a6dda0a7-b402-4887-ba33-13a1b4e93b64.jpg",
+      "PackagePath": "staticwebassets\\uploadsAboutUs\\a6dda0a7-b402-4887-ba33-13a1b4e93b64.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsAboutUs\\b0543263-6938-4cdd-9de7-bbf1701c606a.jpg",
+      "PackagePath": "staticwebassets\\uploadsAboutUs\\b0543263-6938-4cdd-9de7-bbf1701c606a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsAboutUs\\b72811b7-3a54-43a3-ac82-bf5274ea694e.jpg",
+      "PackagePath": "staticwebassets\\uploadsAboutUs\\b72811b7-3a54-43a3-ac82-bf5274ea694e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsAboutUs\\b9ab645f-7d5b-477d-b429-b57bb6dce866.jpg",
+      "PackagePath": "staticwebassets\\uploadsAboutUs\\b9ab645f-7d5b-477d-b429-b57bb6dce866.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsCareer\\0828a0f9-3fc5-467d-83b3-93b464536773.jpg",
+      "PackagePath": "staticwebassets\\uploadsCareer\\0828a0f9-3fc5-467d-83b3-93b464536773.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsCareer\\0e63f47e-1870-4c0e-a2bd-3fe78fbba189.png",
+      "PackagePath": "staticwebassets\\uploadsCareer\\0e63f47e-1870-4c0e-a2bd-3fe78fbba189.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsCareer\\18769548-b07d-4528-a4ad-a4bbe80f4848.jpg",
+      "PackagePath": "staticwebassets\\uploadsCareer\\18769548-b07d-4528-a4ad-a4bbe80f4848.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsCareer\\3f7c2218-a061-4fff-a58b-629394dcfc77.jpg",
+      "PackagePath": "staticwebassets\\uploadsCareer\\3f7c2218-a061-4fff-a58b-629394dcfc77.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsCareer\\64d69322-4253-4508-9f42-eb989b5f20e0.jpg",
+      "PackagePath": "staticwebassets\\uploadsCareer\\64d69322-4253-4508-9f42-eb989b5f20e0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsCareer\\8bbb0d33-f915-4a36-ae3e-7fbb8d425f2f.jpg",
+      "PackagePath": "staticwebassets\\uploadsCareer\\8bbb0d33-f915-4a36-ae3e-7fbb8d425f2f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\04b7ae8f-3ad7-48a1-b11f-255eef7b16cb.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\04b7ae8f-3ad7-48a1-b11f-255eef7b16cb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\12d107fb-9995-4c07-801e-027e1ec5dc52.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\12d107fb-9995-4c07-801e-027e1ec5dc52.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\1a06a3d0-f1dd-47d8-b0ff-483e86d5649e.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\1a06a3d0-f1dd-47d8-b0ff-483e86d5649e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\2047f19f-ab53-4335-84c4-6b4d9ee436fb.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\2047f19f-ab53-4335-84c4-6b4d9ee436fb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\2a894eaa-a3a3-4a7a-81aa-fab970b62da0.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\2a894eaa-a3a3-4a7a-81aa-fab970b62da0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\2e671c74-c031-459a-b75c-75d380825302.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\2e671c74-c031-459a-b75c-75d380825302.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\3045a82f-68e1-4a3a-8d6d-90b1ecf2f382.png",
+      "PackagePath": "staticwebassets\\uploadsHome\\3045a82f-68e1-4a3a-8d6d-90b1ecf2f382.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\4e30b49d-d126-4291-97d2-6cb6ab54b5e7.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\4e30b49d-d126-4291-97d2-6cb6ab54b5e7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\52b5ff71-71f3-48d6-9611-626545f8e406.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\52b5ff71-71f3-48d6-9611-626545f8e406.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\6025de2b-6430-43a5-b72b-cbaaae3de4ee.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\6025de2b-6430-43a5-b72b-cbaaae3de4ee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\6574accd-f83d-43af-b580-c8bff0813a21.png",
+      "PackagePath": "staticwebassets\\uploadsHome\\6574accd-f83d-43af-b580-c8bff0813a21.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\67266603-de40-4e10-a2ad-6871128c3252.png",
+      "PackagePath": "staticwebassets\\uploadsHome\\67266603-de40-4e10-a2ad-6871128c3252.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\6d352396-5d8f-4962-ad3f-bd83a63e24ba.jpeg",
+      "PackagePath": "staticwebassets\\uploadsHome\\6d352396-5d8f-4962-ad3f-bd83a63e24ba.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\8533a662-9ddb-442e-8a63-684a97f12197.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\8533a662-9ddb-442e-8a63-684a97f12197.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\8ab8549d-0687-4573-8ea1-57037df51f2c.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\8ab8549d-0687-4573-8ea1-57037df51f2c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\8c7b313e-27a7-4e89-a125-0c2ef86e587f.png",
+      "PackagePath": "staticwebassets\\uploadsHome\\8c7b313e-27a7-4e89-a125-0c2ef86e587f.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\abb7d2eb-dc1e-4b84-8c71-71e139865d90.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\abb7d2eb-dc1e-4b84-8c71-71e139865d90.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\b7b0023a-3c6b-4771-aa70-2feadb2a6d89.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\b7b0023a-3c6b-4771-aa70-2feadb2a6d89.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\ba610ba6-2ad8-421e-92a7-a83bb063d3de.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\ba610ba6-2ad8-421e-92a7-a83bb063d3de.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\c0935d2a-a440-4c80-b7cb-457d1016005c.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\c0935d2a-a440-4c80-b7cb-457d1016005c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\c45f0ada-b8a9-4885-be8f-d1afd2ece395.png",
+      "PackagePath": "staticwebassets\\uploadsHome\\c45f0ada-b8a9-4885-be8f-d1afd2ece395.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\c4ef2f92-958f-4f55-999a-a86f71f832a3.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\c4ef2f92-958f-4f55-999a-a86f71f832a3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\c81c5a3d-082c-4779-b2fb-3feec53ce502.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\c81c5a3d-082c-4779-b2fb-3feec53ce502.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\e7970268-d669-4132-8f8b-22490ff5bc05.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\e7970268-d669-4132-8f8b-22490ff5bc05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsHome\\eaed4b36-9d88-46ae-95ea-63c3dc920913.jpg",
+      "PackagePath": "staticwebassets\\uploadsHome\\eaed4b36-9d88-46ae-95ea-63c3dc920913.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\09c893d7-de37-4248-8384-765e1aaedf26.png",
+      "PackagePath": "staticwebassets\\uploadsProjects\\09c893d7-de37-4248-8384-765e1aaedf26.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\0d532112-1820-410c-977e-88f1efb63303.jpg",
+      "PackagePath": "staticwebassets\\uploadsProjects\\0d532112-1820-410c-977e-88f1efb63303.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\13938f69-56fc-4a0f-aa0c-2fd4c0e70254.jpg",
+      "PackagePath": "staticwebassets\\uploadsProjects\\13938f69-56fc-4a0f-aa0c-2fd4c0e70254.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\15546442-54f8-4b81-8bfc-b0fe2464e3d4.jpg",
+      "PackagePath": "staticwebassets\\uploadsProjects\\15546442-54f8-4b81-8bfc-b0fe2464e3d4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\1a46ef01-bd88-4ee0-8700-f09aa69e3eb9.jpg",
+      "PackagePath": "staticwebassets\\uploadsProjects\\1a46ef01-bd88-4ee0-8700-f09aa69e3eb9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\20462ae1-4c2d-4c06-baeb-99726b2d97f1.jpg",
+      "PackagePath": "staticwebassets\\uploadsProjects\\20462ae1-4c2d-4c06-baeb-99726b2d97f1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\2a722bcb-82da-4e25-85b2-1a20a9dbae9c.png",
+      "PackagePath": "staticwebassets\\uploadsProjects\\2a722bcb-82da-4e25-85b2-1a20a9dbae9c.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\2a970454-63ad-46f4-b22f-1907d3fc1d6c.png",
+      "PackagePath": "staticwebassets\\uploadsProjects\\2a970454-63ad-46f4-b22f-1907d3fc1d6c.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\4132041d-0189-4f88-b95d-eb5a1b2cba25.png",
+      "PackagePath": "staticwebassets\\uploadsProjects\\4132041d-0189-4f88-b95d-eb5a1b2cba25.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\43d2b50d-e7d1-421e-9e12-4e17fe40410c.jpg",
+      "PackagePath": "staticwebassets\\uploadsProjects\\43d2b50d-e7d1-421e-9e12-4e17fe40410c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\461932ba-2f50-40f8-b19f-7e23fbe2bf71.png",
+      "PackagePath": "staticwebassets\\uploadsProjects\\461932ba-2f50-40f8-b19f-7e23fbe2bf71.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\4929fd5f-484a-4bd2-8838-5ef0554f24c1.png",
+      "PackagePath": "staticwebassets\\uploadsProjects\\4929fd5f-484a-4bd2-8838-5ef0554f24c1.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\579f1ce5-6d58-44db-8d27-63d77a0037e3.png",
+      "PackagePath": "staticwebassets\\uploadsProjects\\579f1ce5-6d58-44db-8d27-63d77a0037e3.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\61a87b28-2b13-4c35-8ef2-8d888535bcfb.jpg",
+      "PackagePath": "staticwebassets\\uploadsProjects\\61a87b28-2b13-4c35-8ef2-8d888535bcfb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\6ea08276-5628-4013-8f6c-f4381e3d87e9.jpg",
+      "PackagePath": "staticwebassets\\uploadsProjects\\6ea08276-5628-4013-8f6c-f4381e3d87e9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\75020f1b-3046-4fe8-b1de-aa00aedf087a.png",
+      "PackagePath": "staticwebassets\\uploadsProjects\\75020f1b-3046-4fe8-b1de-aa00aedf087a.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\79c15f70-d032-4413-9cbc-7f07502b5213.jpg",
+      "PackagePath": "staticwebassets\\uploadsProjects\\79c15f70-d032-4413-9cbc-7f07502b5213.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\ab0b1d43-3ea7-4fc1-800a-de85ca26055c.jpg",
+      "PackagePath": "staticwebassets\\uploadsProjects\\ab0b1d43-3ea7-4fc1-800a-de85ca26055c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\c2fafa90-0859-4d7b-ad73-7daef765a51a.jpg",
+      "PackagePath": "staticwebassets\\uploadsProjects\\c2fafa90-0859-4d7b-ad73-7daef765a51a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsProjects\\c7dd2be4-dfe4-4054-bba3-1aa181d30347.jpg",
+      "PackagePath": "staticwebassets\\uploadsProjects\\c7dd2be4-dfe4-4054-bba3-1aa181d30347.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\016043d8-16ab-4d0a-9085-6e221798c54e.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\016043d8-16ab-4d0a-9085-6e221798c54e.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\041615d0-d99f-4eb1-87d4-1da8aa8c3a10.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\041615d0-d99f-4eb1-87d4-1da8aa8c3a10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\0b4fa318-5d5b-45ee-bcda-a27c1cfd2d33.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\0b4fa318-5d5b-45ee-bcda-a27c1cfd2d33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\1a489ab7-02c7-4b2c-a234-2c9b037ebe0b.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\1a489ab7-02c7-4b2c-a234-2c9b037ebe0b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\23ffd6bc-2377-4e8f-904c-e520fbc2f9c6.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\23ffd6bc-2377-4e8f-904c-e520fbc2f9c6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\3e31e643-9177-4a29-8c53-98db9166aabb.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\3e31e643-9177-4a29-8c53-98db9166aabb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\5220e05f-6642-42bb-b2be-b1e8db047154.png",
+      "PackagePath": "staticwebassets\\uploadsTeam\\5220e05f-6642-42bb-b2be-b1e8db047154.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\5ef20979-b59b-422a-b8fa-020dd6078669.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\5ef20979-b59b-422a-b8fa-020dd6078669.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\7c6756d1-8a10-4ff0-9eab-223c8b0d4fb6.png",
+      "PackagePath": "staticwebassets\\uploadsTeam\\7c6756d1-8a10-4ff0-9eab-223c8b0d4fb6.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\7cd4b9eb-f26a-486f-8d26-bb551f54ed5f.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\7cd4b9eb-f26a-486f-8d26-bb551f54ed5f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\7d725b54-68bd-4eea-a01e-95ddea044a54.png",
+      "PackagePath": "staticwebassets\\uploadsTeam\\7d725b54-68bd-4eea-a01e-95ddea044a54.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\7eec9ef1-71f9-41ae-a4a1-da8122233210.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\7eec9ef1-71f9-41ae-a4a1-da8122233210.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\8580020f-4d02-47d1-be6b-5f9c7ffab61f.png",
+      "PackagePath": "staticwebassets\\uploadsTeam\\8580020f-4d02-47d1-be6b-5f9c7ffab61f.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\86962502-4bfb-4913-9afd-6834c1cd05ef.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\86962502-4bfb-4913-9afd-6834c1cd05ef.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\a37f02ca-c3ee-49de-9da4-08dfdd728232.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\a37f02ca-c3ee-49de-9da4-08dfdd728232.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\a5666393-743b-406c-b68f-2a87e7e1b327.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\a5666393-743b-406c-b68f-2a87e7e1b327.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\ba589c66-45e8-4528-b6af-03f8604101ea.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\ba589c66-45e8-4528-b6af-03f8604101ea.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\c2968d73-3306-4422-8ef4-2ab6a9748b45.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\c2968d73-3306-4422-8ef4-2ab6a9748b45.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\c3585a98-6187-4604-aaa9-cecb26a9ee31.png",
+      "PackagePath": "staticwebassets\\uploadsTeam\\c3585a98-6187-4604-aaa9-cecb26a9ee31.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\c3859842-bdba-47fa-829c-bf0cf59a96b3.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\c3859842-bdba-47fa-829c-bf0cf59a96b3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\da14b238-edd0-4a1a-86aa-57ba249d6514.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\da14b238-edd0-4a1a-86aa-57ba249d6514.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\e2cf6acd-e780-4fd8-9bfa-762f8a0978af.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\e2cf6acd-e780-4fd8-9bfa-762f8a0978af.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\e72b5a60-1091-430d-bf1e-8f82ab8411c2.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\e72b5a60-1091-430d-bf1e-8f82ab8411c2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\e735d4d6-1523-4fed-aa4b-f6f60db9a36f.png",
+      "PackagePath": "staticwebassets\\uploadsTeam\\e735d4d6-1523-4fed-aa4b-f6f60db9a36f.png"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\f083938e-c858-4c03-8a1d-03c159d56ad8.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\f083938e-c858-4c03-8a1d-03c159d56ad8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\f695f242-7344-4bd8-8cd8-6309b6f4c738.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\f695f242-7344-4bd8-8cd8-6309b6f4c738.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\f70ae7c6-b596-420b-a647-14029b43d9e8.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\f70ae7c6-b596-420b-a647-14029b43d9e8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\f7b080f5-6856-4f08-a2e5-21a0bce568c0.jpg",
+      "PackagePath": "staticwebassets\\uploadsTeam\\f7b080f5-6856-4f08-a2e5-21a0bce568c0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.WebUI\\wwwroot\\uploadsTeam\\fbd3c4fd-8104-49a1-831c-63202d4a745f.png",
+      "PackagePath": "staticwebassets\\uploadsTeam\\fbd3c4fd-8104-49a1-831c-63202d4a745f.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CW.WebUI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CW.WebUI.props",
+      "PackagePath": "build\\CW.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CW.WebUI.props",
+      "PackagePath": "buildMultiTargeting\\CW.WebUI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CW.WebUI.props",
+      "PackagePath": "buildTransitive\\CW.WebUI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

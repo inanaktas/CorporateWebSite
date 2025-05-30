@@ -1,0 +1,234 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Basic -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+	<!-- Site Metas -->
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta name="author" content="" />
+	<link rel="shortcut icon" href="~/images/favicon.png" type="">
+
+	<title> Yazılım Evi </title>
+
+	<!-- bootstrap core css -->
+	<link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+
+	<!-- fonts style -->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+	<!--owl slider stylesheet -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+	<!-- font awesome style -->
+	<link href="~/css/font-awesome.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+	<!-- Custom styles for this template -->
+
+	<link rel="stylesheet" href="~/css/site-user.css" />
+	
+
+	<link rel="stylesheet" href="~/css/Custom.css" />
+
+	<!-- responsive style -->
+	<link href="~/css/responsive.css" rel="stylesheet" />
+
+</head>
+<body class="sub_page">
+
+	<div class="hero_area">
+
+		<!-- header section strats -->
+		<header class="header_section">
+			<div class="full-width-navbar bg-secondary">
+				<nav class="navbar navbar-expand-lg custom_nav-container ">				
+
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class=""> </span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="~/Home/Index">Ana Sayfa</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="~/Home/AboutUs">Hakkımızda</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="~/Home/Project">Projeler</a>
+							</li>
+
+							<!-- LOGO burada -->
+							<li class="nav-item d-none d-lg-block">
+								<a class="navbar-brand px-3" href="~/Home/Index">
+									<img src="~/images/IA-removebg-preview.png" alt="Logo" />
+								</a>
+							</li>
+
+							<li class="nav-item">
+								<a class="nav-link" href="~/Home/Team">Ekibimiz</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="~/Home/Career">Kariyer</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="~/Admin/Login/AdminLogin" target="_blank">
+									<i class="fa fa-user" aria-hidden="true"></i> Giriş
+								</a>
+							</li>
+						</ul>
+
+					</div>
+				</nav>
+			</div>
+		</header>
+		<!-- end header section -->
+	</div>
+
+	@RenderBody()
+
+
+	<!-- info section -->
+	<!-- Footer Section -->
+	<footer class="footer bg-secondary text-white pt-4">
+		<div class="container">
+			<div class="row">
+
+				<!-- Sosyal Medya ve İletişim Bilgisi -->
+				<div class="col-md-6 text-md-end mt-3 mt-md-0">
+					<h5>Bizi Takip Edin</h5>
+					<div class="icons mb-3">
+						<a href="#" class="text-white me-3"><i class="fab fa-facebook"></i></a>
+						<a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+						<a href="#" class="text-white me-3"><i class="fab fa-youtube"></i></a>
+					</div>
+
+					<h5 class="mt-3">İletişim</h5>
+					<p class="mb-0">
+						Ankara Teknoloji Geliştirme Bölgesi, Üniversiteler, Beytepe Lodumlu Köy Yolu Caddesi No:91 G Blok, 06800 Çankaya/Ankara
+						İA Teknoloji Ankara
+					</p>
+					<h5 class="mt-3">E-Posta</h5>
+					<p class="mb-0">
+						iateknoloji@gmail.com
+					</p>
+					<h5 class="mt-3">Telefon</h5>
+					<p class="mb-0">
+						+90 312 1234556
+					</p>
+				</div>
+
+				<!-- Görüş ve Öneri Formu -->
+				<div class="col-md-6">
+					<h5>Görüş ve Öneriler</h5>
+					<p>Görüş ve önerileriniz için aşağıdaki formu doldurunuz.</p>
+					<form id="contactForm" method="post" asp-controller="Home" asp-action="SendMessage">
+						<div class="row">
+							<div class="mb-3 col-md-6">
+								<label for="name" class="form-label">Adınız</label>
+								<input type="text" class="form-control" id="name" name="Name" required>
+							</div>
+							<div class="mb-3 col-md-6">
+								<label for="surname" class="form-label">Soyadınız</label>
+								<input type="text" class="form-control" id="surname" name="Surname" required>
+							</div>
+						</div>
+						<div class="row">
+							<div class="mb-3 col-md-6">
+								<label for="email" class="form-label">E-posta</label>
+								<input type="email" class="form-control" id="email" name="Email" required>
+							</div>
+							<div class="mb-3 col-md-6">
+								<label for="phoneNumber" class="form-label">Telefon Numaranız</label>
+								<input type="tel" class="form-control" id="phoneNumber" name="PhoneNumber" required>
+							</div>
+						</div>
+						<div class="mb-3">
+							<label for="message" class="form-label">Mesajınız</label>
+							<textarea class="form-control" id="message" name="Message" rows="3" required></textarea>
+						</div>
+						<input type="hidden" name="isRead" value="false" />
+						<input type="hidden" name="isPending" value="false" />
+						<button type="submit" class="btn btn-primary">Gönder</button>
+					</form>
+				</div>
+			</div>
+
+			<!-- Alt çizgi ve Telif Hakkı -->
+			<hr class="border-light mt-4" />
+			<div class="text-center pb-2">
+				<p class="mb-0">&copy; <span id="displayYear"></span> Tüm Hakları Saklıdır</p>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Yılı otomatik göster -->
+	<script>
+		document.getElementById("displayYear").textContent = new Date().getFullYear();
+	</script>
+
+	<!-- end info section -->
+	<!-- footer section -->
+	<!-- footer section -->
+	<!-- jQery -->
+	<script type="text/javascript" src="~/js/jquery-3.4.1.min.js"></script>
+	<!-- popper js -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+	</script>
+	<!-- bootstrap js -->
+	<script type="text/javascript" src="~/js/bootstrap.js"></script>
+	<!-- owl slider -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+	</script>
+	<!-- custom js -->
+	<script type="text/javascript" src="~/js/custom.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate-unobtrusive/3.2.12/jquery.validate.unobtrusive.min.js"></script>
+
+	<!-- Google Map -->
+	<!-- End Google Map -->
+
+	<script>
+		$(document).ready(function () {
+			$('#contactForm').on('submit', function (e) {
+				e.preventDefault();
+
+				var formData = {
+					Name: $('#name').val(),
+					Surname: $('#surname').val(),
+					Email: $('#email').val(),
+					PhoneNumber: $('#phoneNumber').val(),
+					Message: $('#message').val(),
+					IsRead: false,
+					IsPending: false
+				};
+
+				$.ajax({
+					url: 'https://localhost:2025/api/Feedback/Save',
+					type: 'POST',
+					contentType: 'application/json',
+					data: JSON.stringify(formData),
+					success: function (response) {
+						alert("Mesajınız başarıyla gönderildi!");
+						$('#contactForm')[0].reset(); // formu temizle
+					},
+					error: function () {
+						alert("Bir hata oluştu, lütfen tekrar deneyin.");
+					}
+				});
+			});
+		});
+	</script>
+
+
+
+
+	@await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

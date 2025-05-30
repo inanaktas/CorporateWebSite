@@ -1,0 +1,32 @@
+﻿<!-- home page section -->
+
+<div class="row text-center">
+    <div id="homePageList" class="mx-auto">
+    </div>
+</div>
+
+
+<!-- end home page section -->
+
+
+@section Scripts {
+    <script type="text/javascript">
+        $(document).ready(function () {
+            GetHomePageList();
+        });
+
+        function GetHomePageList() {
+            $.ajax({
+                url: '/Home/HomePageList',  // Doğru URL (Anasayfa API çağrısı)
+                type: 'GET',
+                contentType: 'application/json',
+                success: function (response) {
+                    $("#homePageList").html(response);
+                },
+                error: function (hata) {
+                    alert("Veri alınırken hata oluştu!");
+                }
+            });
+        }
+    </script>
+}

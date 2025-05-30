@@ -1,0 +1,34 @@
+﻿<!-- project section -->
+
+<div class="row text-center">
+    <div id="projectList" class="mx-auto">
+    </div>
+</div>
+
+<!-- end project section -->
+
+
+
+
+@section Scripts {
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+                GetProjects();
+            });
+
+            function GetProjects() {
+                $.ajax({
+                url: '/Home/List',
+                    type: 'GET',
+                    contentType: 'application/json',
+                    success: function (response) {
+                        $("#projectList").html(response);                        
+                    },
+                    error: function (hata) {
+                        alert("Veri alınırken hata oluştu!");
+                    }
+                });
+            }
+        </script>
+}

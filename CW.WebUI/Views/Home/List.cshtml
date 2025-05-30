@@ -1,0 +1,72 @@
+﻿@model List<ProjectDataModel>
+
+<!-- service section -->
+<section class="service_section layout_padding">
+    <div class="service_container">
+        <div class="container">
+            <div class="heading_container heading_center mt-3">
+                <h2>Gerçekleştirilen Projelerimizden Bazıları</h2>
+                <p>
+                    Sunduğumuz dijital çözümler ve geliştirdiğimiz yazılımlar ile farklı sektörlerde faaliyet gösteren iş ortaklarımıza özel projeler ürettik.
+                </p>
+            </div>
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="img-box">
+                                <img src="@Url.Content(item.ImageUrl1)" alt="@item.Title" class="img-fluid" />
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">@item.Title</h5>
+                                <p class="card-text">@item.ShortDescription</p>
+                                <a href="javascript:void(0);"
+                                   class="btn btn-sm btn-outline-primary open-project-modal"
+                                   data-title="@item.Title"
+                                   data-short="@item.ShortDescription"
+                                   data-desc="@item.Description"
+                                   data-img="@Url.Content(item.ImageUrl1)">
+                                    Daha Fazla
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="projectModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">            
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="" class="img-fluid mb-3 rounded" />
+                <h5 id="modalTitle"></h5>
+                <p id="modalShort"></p>
+                <p id="modalDesc" class="text-muted"></p>
+            </div>           
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $(".open-project-modal").click(function () {
+            const title = $(this).data("title");
+            const short = $(this).data("short");
+            const desc = $(this).data("desc");
+            const img = $(this).data("img");
+
+            $("#modalTitle").text(title);
+            $("#modalShort").text(short);
+            $("#modalDesc").text(desc);
+            $("#modalImage").attr("src", img).attr("alt", title);
+
+            const modal = new bootstrap.Modal(document.getElementById('projectModal'));
+            modal.show();
+        });
+    });
+</script>

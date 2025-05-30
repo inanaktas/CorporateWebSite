@@ -1,0 +1,58 @@
+﻿@model List<TeamDataModel>
+
+@if (Model != null && Model.Count > 0)
+{
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm h-100">
+
+                    <!-- Fotoğraf responsive ve orantılı kırpılmış -->
+                    <div style="height: 250px; overflow: hidden;">
+                        <img src="@item.ImageUrl" class="card-img-top img-fluid" alt="Personel Fotoğrafı" style="object-fit: contain; height: 250px; background-color: #f8f9fa; border-radius: 0.5rem;" />
+                    </div>
+
+                    <div class="card-body">
+                        <p class="mb-1"><strong>Ad Soyad :</strong> @item.Name @item.Surname</p>
+                        <p class="mb-2"><strong>Pozisyon :</strong> @item.Position</p>
+                    </div>
+
+                    <div class="card-footer d-flex justify-content-between align-items-center flex-wrap gap-2">
+                        <span class="badge bg-@(item.IsActive ? "success" : "secondary")">
+                            @(item.IsActive ? "Aktif" : "Pasif")
+                        </span>
+
+                        <div class="d-flex gap-2">
+                            <button class="btn btn-success btn-sm"
+                                    data-id="@item.Id"
+                                    data-name="@item.Name"
+                                    data-surname="@item.Surname"
+                                    data-position="@item.Position"
+                                    data-imageurl="@item.ImageUrl"
+                                    data-createdby="@item.CreatedBy"
+                                    data-createddate="@item.CreatedDate"
+                                    data-isactive="@item.IsActive"
+                                    onclick="SetUpdateItem(this);">
+                                <i class="bi bi-pencil-square"></i> Güncelle
+                            </button>
+
+                            <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#divDelete"
+                                    onclick="SetDeleteItem(@item.Id);">
+                                <i class="bi bi-trash"></i> Sil
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div class="alert alert-warning text-center mt-2 d-flex flex-column align-items-center" role="alert">
+        <span>Personel kaydı bulunamadı.</span>
+        <i class="bi bi-exclamation-triangle-fill fs-1 mt-2"></i>
+    </div>
+}

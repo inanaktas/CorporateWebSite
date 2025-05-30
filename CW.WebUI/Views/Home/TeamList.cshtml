@@ -1,0 +1,38 @@
+﻿@model List<TeamDataModel>
+
+@if (Model != null && Model.Any())
+{
+    <section class="team_section layout_padding">
+        <div class="container-fluid">
+            <div class="heading_container heading_center mt-3">
+                <h2>Ekibimiz</h2>
+            </div>
+
+            <div class="team_container py-5">
+                <div class="row justify-content-center">
+                    @foreach (var member in Model)
+                    {
+                        <div class="col-lg-3 col-md-4 col-sm-6 mb-4 d-flex flex-column align-items-center">
+                            <!-- Fotoğraf Divi -->
+                            <div class="team-photo-wrapper mb-2">
+                                <img src="@(!string.IsNullOrEmpty(member.ImageUrl) ? member.ImageUrl : "images/default.jpg")"
+                                     alt="@member.Name"
+                                     class="img-fluid team-photo" />
+                            </div>
+
+                            <!-- Yazı Divi -->
+                            <div class="team-info text-center">
+                                <p class="team-position mb-1">@member.Position</p>
+                                <h5 class="team-name mb-0">@member.Name @member.Surname</h5>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </section>
+}
+else
+{
+    <p class="text-center">Gösterilecek veri bulunamadı.</p>
+}

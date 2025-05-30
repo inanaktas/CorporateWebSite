@@ -1,0 +1,412 @@
+﻿<!-- Proje Sorgula / Ekle Kısmı -->
+<div class="card mb-4">
+	<div class="card-header bg-primary text-white">
+		<h6 class="mt-2">Proje Sorgula / Ekle</h6>
+	</div>
+	<div class="card-body">
+		<form id="frmSearch">
+			<div class="row">
+				<div class="col-md-6 mb-3">
+					<label for="pTitleSearch" class="form-label">Proje Adı</label>
+					<input type="text" class="form-control" name="Title" id="pTitleSearch" />
+				</div>
+
+				<div class="col-md-3 mb-3">
+					<label for="pStartDateSearch" class="form-label">Başlangıç Tarihi</label>
+					<input type="date" class="form-control" name="StartDate" id="pStartDateSearch" />
+				</div>
+
+				<div class="col-md-3 mb-3">
+					<label for="pEndDateSearch" class="form-label">Bitiş Tarihi</label>
+					<input type="date" class="form-control" name="EndDate" id="pEndDateSearch" />
+				</div>
+
+				<div class="col-md-6 mb-3">
+					<label for="pDescriptionSearch" class="form-label">Açıklama</label>
+					<input type="text" class="form-control" name="Description" id="pDescriptionSearch" />
+				</div>
+			</div>
+
+			<div class="mt-2">
+				<button type="button" class="btn btn-primary" id="btnFilter">
+					<i class="bi bi-search"></i> Sorgula
+				</button>
+				<button type="button" class="btn btn-success" id="btnAdd" data-bs-toggle="modal" data-bs-target="#divAdd" onclick="SetAddItem()">
+					<i class="bi bi-plus-circle"></i> Ekle
+				</button>
+			</div>
+		</form>
+	</div>
+</div>
+
+<!-- Proje Listesi Kısmı -->
+<div class="card">
+	<div class="card-header bg-secondary text-white">
+		<h6 class="mt-2">Proje Listesi</h6>
+	</div>
+	<div class="card-body">
+		<div id="divResult">
+			<!-- Liste buraya gelecek -->
+		</div>
+	</div>
+</div>
+
+
+
+
+<!-- Add/Update Modal -->
+<div class="modal fade" id="divAdd" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h1 class="modal-title fs-5" id="staticBackdropLabel">Proje Ekle/Güncelle</h1>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<form id="frmProject">
+					<input type="hidden" name="Id" id="id" value="0" />
+					<input type="hidden" name="CreatedBy" id="CreatedBy" value="0" />
+					<input type="hidden" name="CreatedDate" id="CreatedDate" value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss")" />
+
+					<div class="mb-2">
+						<label for="tbTitle" class="form-label">Başlık:</label>
+						<input type="text" id="tbTitle" name="Title" class="form-control" required>
+					</div>
+
+					<div class="mb-2">
+						<label for="tbShortDesc" class="form-label">Kısa Açıklama:</label>
+						<input type="text" id="tbShortDesc" name="ShortDescription" class="form-control" required>
+					</div>
+
+					<div class="mb-2">
+						<label for="tbDesc" class="form-label">Açıklama:</label>
+						<textarea id="tbDesc" name="Description" class="form-control" rows="4"></textarea>
+					</div>
+
+					<div class="mb-2">
+						<label for="tbStartDate" class="form-label">Başlangıç Tarihi:</label>
+						<input type="date" id="tbStartDate" name="StartDate" class="form-control" required>
+					</div>
+
+					<div class="mb-2">
+						<label for="tbEndDate" class="form-label">Bitiş Tarihi:</label>
+						<input type="date" id="tbEndDate" name="EndDate" class="form-control" required>
+					</div>
+
+					<div class="mb-2">
+						<label for="img1" class="form-label">Resim 1:</label>
+						<input type="file" id="img1" name="ImageUrl1" class="form-control">
+					</div>
+					<input type="hidden" id="uploadedImagePath1" name="ImageUrl1">
+
+
+					<div class="mb-2">
+						<label for="img2" class="form-label">Resim 2:</label>
+						<input type="file" id="img2" name="ImageUrl2" class="form-control">
+					</div>
+					<input type="hidden" id="uploadedImagePath2" name="ImageUrl2">
+
+					<div class="mb-2">
+						<label for="img3" class="form-label">Resim 3:</label>
+						<input type="file" id="img3" name="ImageUrl3" class="form-control">
+					</div>
+					<input type="hidden" id="uploadedImagePath3" name="ImageUrl3">
+
+					<!-- Resimleri Yükle Butonu -->
+					<div class="mb-2">
+						<button type="button" class="btn btn-primary mt-2" onclick="UploadAllFiles()">
+							<i class="bi bi-upload"></i> Tüm Resimleri Yükle
+						</button>
+					</div>
+				</form>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+				<button type="button" class="btn btn-success" id="btnSave">Kaydet</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Delete Modal -->
+<div class="modal fade" id="divDelete" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h1 class="modal-title fs-5" id="staticBackdropLabel">Onay</h1>
+				<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+
+				<form id="frmDelete">
+					<input type="hidden" name="pId" id="pId" />
+				</form>
+
+				Kaydı silme işlemini onaylıyor musunuz ?
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+				<button type="button" class="btn btn-danger" id="btnDelete">Sil</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+@section Scripts {
+
+	<script type="text/javascript">
+
+		$('#btnFilter').click(function () {
+
+			let jsonData = $('#frmSearch').serialize();
+
+			$.ajax({
+
+				url: '/admin/Project/List',
+				type: 'get',
+				contentType: 'application/json',
+				data: jsonData,
+				headers: {
+					'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+				},
+				success: function (response) {
+					$('#divResult').empty().append(response);
+				},
+				error: function (err) {
+
+				}
+			});
+		});
+
+		$('#btnSave').click(function (e) { 
+
+			e.preventDefault(); // Formun otomatik gönderilmesini engelle
+			if ($("#frmProject").valid()) {
+
+				// Yüklenen resimler kontrolü
+				if ($('#uploadedImagePath1').val() === "" && $('#uploadedImagePath2').val() === "" && $('#uploadedImagePath3').val() === "") {
+					alert("Lütfen en az bir resim yükleyin.");
+					return;
+				}
+
+				let jsonData = GetJSONDataFromForm('frmProject');
+				$.ajax({
+					url: 'https://localhost:2025/api/Project/Save',
+					type: 'post',
+					contentType: 'application/json',
+					data: jsonData,
+					headers: {
+						'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+					},
+					success: function (response) {
+						$('#btnFilter').click();
+						$('.modal').modal('hide');
+					},
+					error: function (err) {
+						console.error("Hata oluştu:", err);
+					}
+				});
+			}
+		});
+
+		$('#btnDelete').click(function () {
+
+			
+			let jsonData = GetJSONDataFromForm('frmDelete');
+			$.ajax({
+
+				url: 'https://localhost:2025/api/Project/DeleteProject',
+				type: 'delete',
+				contentType: 'application/json',
+				data: jsonData,
+				headers: {
+					'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+				},
+				success: function (response) {
+					$('#btnFilter').click();
+					$('.modal').modal('hide');
+				},
+				error: function (err) {
+
+				}
+			});
+		});
+
+		function SetAddItem() {
+
+			$('#frmProject')[0].reset();
+
+			$('#id').val("0");
+			$('#CreatedBy').val("0");
+
+			$('#tbStartDate').val("");
+			$('#tbEndDate').val("");
+			$('#tbTitle').val("");
+			$('#tbShortDesc').val("");
+			$('#tbDesc').val("");
+
+			$('#img1').val(null);
+			$('#img2').val(null);
+			$('#img3').val(null);
+		}
+
+		function SetDeleteItem(id) {
+			$('#pId').val(id);
+		}
+
+		function SetUpdateItem(link) {
+			$('#tbTitle').val($(link).data("title"));
+			$('#tbShortDesc').val($(link).data("shortdescription"));
+			$('#tbDesc').val($(link).data("description"));
+			$('#id').val($(link).data("id"));
+
+			var createdDate = $(link).data("createddate");
+
+
+			if (createdDate && createdDate.includes(".")) {
+				var parts = createdDate.split(" ");
+				var dateParts = parts[0].split(".");
+
+				var day = dateParts[0].padStart(2, '0');
+				var month = dateParts[1].padStart(2, '0');
+				var year = dateParts[2];
+
+				var formattedDate = year + "-" + month + "-" + day + "T" + (parts[1] || "00:00:00");
+
+				$('#CreatedDate').val(formattedDate);
+			}
+
+			var rawDate = $(link).data("startdate"); // "20.12.2025"
+			var parts = rawDate.split('.'); // "20", "12", "2025"
+
+			// Gün ve ayları iki haneli yapıyoruz
+			var startDay = parts[0].padStart(2, '0');
+			var startMonth = parts[1].padStart(2, '0');
+			var startYear = parts[2];
+
+			var formattedStartDate = startYear + '-' + startMonth + '-' + startDay; // YYYY-MM-DD formatına çevir
+			$('#tbStartDate').val(formattedStartDate);
+
+			var rawEndDate = $(link).data("enddate"); // "20.12.2025"
+			var partsEnd = rawEndDate.split('.'); // "20", "12", "2025"
+
+			// Gün ve ayları iki haneli yapıyoruz
+			var endDay = partsEnd[0].padStart(2, '0');
+			var endMonth = partsEnd[1].padStart(2, '0');
+			var endYear = partsEnd[2];
+
+			var formattedEndDate = endYear + '-' + endMonth + '-' + endDay; // YYYY-MM-DD formatına çevir
+			$('#tbEndDate').val(formattedEndDate);
+		}
+
+		$(document).ready(function () {
+
+			$("#frmProject").validate({
+				rules: {
+					Title: {
+						required: true,
+						minlength: 3
+					},
+					ShortDescription: {
+						required: true,
+						minlength: 10
+					},
+					StartDate: {
+						required: true,
+						date: true
+					},
+					EndDate: {
+						required: true,
+						date: true,
+						greaterThan: "#tbStartDate"
+					}
+				},
+				messages: {
+					Title: {
+						required: "Başlık alanı zorunludur.",
+						minlength: "Başlık en az 3 karakter olmalıdır."
+					},
+					ShortDescription: {
+						required: "Kısa açıklama alanı zorunludur.",
+						minlength: "Kısa açıklama en az 10 karakter olmalıdır."
+					},
+					StartDate: {
+						required: "Başlangıç tarihi zorunludur.",
+						date: "Lütfen geçerli bir tarih giriniz."
+					},
+					EndDate: {
+						required: "Bitiş tarihi zorunludur.",
+						date: "Lütfen geçerli bir tarih giriniz.",
+						greaterThan: "Bitiş tarihi, başlangıç tarihinden sonra olmalıdır."
+					}
+				}
+			});
+
+			// Bitiş tarihi, başlangıç tarihinden büyük olmalıdır
+			$.validator.addMethod("greaterThan", function (value, element, param) {
+				var startDate = $(param).val();
+				return !startDate || !value || new Date(value) >= new Date(startDate);
+			}, "Bitiş tarihi, başlangıç tarihinden sonra olmalıdır.");
+		});
+
+		function UploadAllFiles() {
+			let formData = new FormData();
+			let files = [];
+
+			// Dosya inputlarını al
+			let fileInput1 = document.getElementById("img1").files[0];
+			let fileInput2 = document.getElementById("img2").files[0];
+			let fileInput3 = document.getElementById("img3").files[0];
+
+			if (fileInput1) {
+				formData.append("files", fileInput1);
+			}
+			if (fileInput2) {
+				formData.append("files", fileInput2);
+			}
+			if (fileInput3) {
+				formData.append("files", fileInput3);
+			}
+
+			if (formData.getAll("files").length === 0) {
+				alert("Lütfen en az bir dosya seçiniz.");
+				return;
+			}
+
+			$.ajax({
+				url: 'https://localhost:2025/api/FileUpload/UploadAllFiles',
+				type: 'post',
+				data: formData,
+				processData: false,
+				contentType: false,
+				headers: {
+					'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+				},
+				success: function (response) {
+					if (response.isSuccess) {
+						alert("Dosyalar başarıyla yüklendi!");
+
+						// Yüklenen dosya yollarını gizli inputlara ekleyelim
+						if (response.filePaths.length > 0) {
+							$('#uploadedImagePath1').val(response.filePaths[0] || "");
+							$('#uploadedImagePath2').val(response.filePaths[1] || "");
+							$('#uploadedImagePath3').val(response.filePaths[2] || "");
+						}
+					} else {
+						alert(response.message);
+					}
+				},
+				error: function (err) {
+					alert("Dosya yükleme sırasında hata oluştu.");
+					console.error(err);
+				}
+			});
+		}
+	</script>
+
+	
+
+}

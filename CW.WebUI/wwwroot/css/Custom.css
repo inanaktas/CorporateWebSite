@@ -1,0 +1,145 @@
+﻿/* Footer Genel Stil */
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 50px 0;
+    font-size: 16px;
+}
+
+/* Sosyal Medya İkonları */
+.social-icons a {
+    font-size: 120px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icons a:hover {
+    color: red !important;
+    transform: scale(1.2);
+}
+
+/* Copyright Yazısı */
+.footer p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+
+.card {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color:rgb(204, 200, 200);
+}
+
+.img-box {
+    height: 220px;
+    overflow: hidden;
+}
+
+    .img-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 0.3s ease-in-out;
+        display: block;
+    }
+
+.team-photo-wrapper {
+    width: 100%;
+    max-height: 450px;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.team-photo {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: contain; /* Kırpma yok, tamamı görünür */
+    display: block;
+    border-radius: 12px;
+}
+
+.team-info {
+    margin-top: 0.5rem;
+}
+
+.team-position {
+    font-weight: 600;
+    color: #fd7e14;
+    font-size: 0.95rem;
+}
+
+.team-name {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 0;
+}
+
+.about-img-box {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(204, 200, 200);
+}
+
+    .about-img-box img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        
+        display: block;
+        margin: 0 auto;
+        max-height: 700px; /* İsteğe göre sınırla */
+    }
+
+
+
+.job-card {
+    background-color: red;
+    padding: 20px;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
+
+    .job-card:hover {
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    }
+
+
+.apply-button {
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+    .apply-button::after {
+        content: "";
+        background: #0056b3;
+        position: absolute;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        transition: all 0.4s ease;
+    }
+
+    .apply-button:hover::after {
+        left: 0;
+    }
+
+    .apply-button:hover {
+        color: #fff;
+        transform: scale(1.05);
+    }

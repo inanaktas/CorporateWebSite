@@ -1,0 +1,281 @@
+﻿<!-- Hakkımızda Admin -->
+<div class="card mb-4">
+	<div class="card-header bg-primary text-white">
+		<h6 class="mt-2">Hakkımızda Bilgileri Düzenle</h6>
+	</div>
+	<div class="card-body">
+		<form id="frmEdit">
+
+			<input type="hidden" name="Id" id="id" value="0" />
+			<input type="hidden" name="CreatedBy" id="CreatedBy" value="0" />
+			<input type="hidden" name="CreatedDate" id="CreatedDate" value="@DateTime.Now.ToString("yyyy-MM-ddTHH:mm:ss")" />
+
+			<div class="mb-3">
+				<label for="baslik" class="form-label">Başlık:</label>
+				<input type="text" id="tbTitle" name="Title" class="form-control">
+			</div>
+
+			<div class="mb-3">
+				<label for="kisa-aciklama" class="form-label">Kısa Açıklama:</label>
+				<input type="text" id="tbShortDesc" name="ShortDescription" class="form-control">
+			</div>
+
+			<div class="mb-3">
+				<label for="aciklama" class="form-label">Açıklama:</label>
+				<textarea id="tbDesc" name="Description" class="form-control" rows="4"></textarea>
+			</div>
+
+			<div class="mb-3">
+				<label for="tbVision" class="form-label">Vizyon:</label>
+				<input type="text" id="tbVision" name="Vision" class="form-control">
+			</div>
+
+			<div class="mb-3">
+				<label for="tbMission" class="form-label">Misyon:</label>
+				<input type="text" id="tbMission" name="Mission" class="form-control">
+			</div>
+
+			<div class="mb-3 d-flex align-items-end gap-2">
+				<div style="width: 300px;">
+					<label for="img" class="form-label">Fotoğraf Yükle:</label>
+					<input type="file" id="img" name="ImageUrl" class="form-control">
+				</div>
+				<div>
+					<button type="button" class="btn btn-primary" onclick="UploadFile()">
+						<i class="bi bi-upload"></i> Yükle
+					</button>
+				</div>
+			</div>
+
+			<input type="hidden" id="uploadedImagePath" name="ImageUrl">
+
+			<div class="mb-3">
+				<label class="form-label">Fotoğraf Önizleme:</label>
+				<div>
+					<img id="imagePreview" src="" alt="Yüklenen Resim" class="img-thumbnail" style="max-width: 200px; display: none;">
+				</div>
+			</div>
+
+			<div>
+				<input type="submit" value="Kaydet" class="btn btn-success">
+			</div>
+
+		</form>
+	</div>
+</div>
+
+<!-- Hakkımızda Admin Son -->
+
+
+@section Scripts {
+	<script type="text/javascript">
+
+		$(document).ready(function () {
+			GetAboutUs();
+		});
+
+		$('#frmEdit').validate({
+			rules: {
+				Title: {
+					required: true,
+					maxlength: 200
+				},
+				ShortDescription: {
+					required: true,
+					maxlength: 1000
+				},
+				Description: {
+					required: true,
+					maxlength: 4000
+				},
+				Vision: {
+					required: true,
+					maxlength: 250
+				},
+				Mission: {
+					required: true,
+					maxlength: 250
+				}
+			},
+			messages: {
+				Title: {
+					required: "Başlık boş bırakılamaz.",
+					maxlength: "Başlık en fazla 200 karakter olabilir."
+				},
+				ShortDescription: {
+					required: "Kısa Açıklama boş bırakılamaz.",
+					maxlength: "Kısa Açıklama en fazla 1000 karakter olabilir."
+				},
+				Description: {
+					required: "Açıklama boş bırakılamaz.",
+					maxlength: "Açıklama en fazla 4000 karakter olabilir."
+				},
+				Vision: {
+					required: "Vizyon boş bırakılamaz.",
+					maxlength: "Vizyon en fazla 250 karakter olabilir."
+				},
+				Mission: {
+					required: "Misyon boş bırakılamaz.",
+					maxlength: "Misyon en fazla 250 karakter olabilir."
+				}
+
+			},
+			submitHandler: function (form) {
+				SaveForm();
+			}
+		});
+
+		function SaveForm() {
+
+			let jsonData = GetJSONDataFromForm('frmEdit');
+
+			$.ajax({
+				url: 'https://localhost:2025/api/AboutUs/SaveAboutUs',
+				type: 'post',
+				contentType: 'application/json',
+				data: jsonData,
+
+				headers: {
+					'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+				},
+
+				success: function (response) {
+					if (response.isSuccess) {
+
+						alert(response.message);
+					}
+					else {
+						alert(response.message);
+					}
+				},
+				error: function (err, status, msj) {
+					alert("Kayıt Başarısız");
+				}
+			});
+
+
+
+		}
+
+		function GetAboutUs() {
+			$.ajax({
+				url: 'https://localhost:2025/api/AboutUs/GetAboutUs',
+				type: 'get',
+				contentType: 'application/json',
+
+				headers: {
+					'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+				},
+
+				success: function (response) {
+					
+					if (response != undefined) { 
+						$('#tbTitle').val(response.title);
+						$('#tbShortDesc').val(response.shortDescription);
+						$('#tbDesc').val(response.description);
+						$('#id').val(response.id);
+						$('#CreatedBy').val(response.createdBy);
+						$('#tbVision').val(response.vision);
+						$('#tbMission').val(response.mission);
+
+						// Resim önizleme için URL yi hidden inputa ata
+						$('#uploadedImagePath').val(response.imageUrl);
+
+						// Resim varsa önizleme gösterilir
+						if (response.imageUrl) {
+							$('#imagePreview').attr('src', response.imageUrl).show();
+						}
+						
+						//Tarih formatının DB de kayıt ederken uygun hale getirilmesi
+						var createdDate = $(link).data("createddate");
+
+
+						if (createdDate && createdDate.includes(".")) {
+							var parts = createdDate.split(" ");
+							var dateParts = parts[0].split(".");
+
+							var day = dateParts[0].padStart(2, '0');
+							var month = dateParts[1].padStart(2, '0');
+							var year = dateParts[2];
+
+							var formattedDate = year + "-" + month + "-" + day + "T" + (parts[1] || "00:00:00");
+
+							$('#CreatedDate').val(formattedDate);
+						}
+
+						var rawDate = $(link).data("startdate"); // "20.12.2025"
+						var parts = rawDate.split('.'); // "20", "12", "2025"
+
+						// Gün ve ayları iki haneli yapıyoruz
+						var startDay = parts[0].padStart(2, '0');
+						var startMonth = parts[1].padStart(2, '0');
+						var startYear = parts[2];
+
+						var formattedStartDate = startYear + '-' + startMonth + '-' + startDay; // YYYY-MM-DD formatına çevir
+						$('#tbStartDate').val(formattedStartDate);
+
+						var rawEndDate = $(link).data("enddate"); // "20.12.2025"
+						var partsEnd = rawEndDate.split('.'); // "20", "12", "2025"
+
+						// Gün ve ayları iki haneli yapıyoruz
+						var endDay = partsEnd[0].padStart(2, '0');
+						var endMonth = partsEnd[1].padStart(2, '0');
+						var endYear = partsEnd[2];
+
+						var formattedEndDate = endYear + '-' + endMonth + '-' + endDay; // YYYY-MM-DD formatına çevir
+						$('#tbEndDate').val(formattedEndDate);
+
+					}
+				},
+				error: function (hata) {
+					alert(hata);
+				}
+			});
+
+		}
+
+		function UploadFile() {
+			var fileInput = document.getElementById("img");
+
+			if (fileInput.files.length === 0) {
+				alert("Lütfen bir dosya seçin!");
+				return;
+			}
+
+			var formData = new FormData();
+			formData.append("file", fileInput.files[0]);
+
+			$.ajax({
+				url: 'https://localhost:2025/api/FileUpload/Upload',
+				type: 'POST',
+				data: formData,
+				processData: false,
+				contentType: false,
+				headers: {
+					'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+				},
+				success: function (response) {
+					if (response.isSuccess) {
+						$('#uploadedImagePath').val(response.filePath);
+						$('#imagePreview').attr('src', response.filePath).show();
+						alert(response.message);
+					} else {
+						alert("Dosya yüklenirken hata oluştu!");
+					}
+				},
+				error: function (err) {
+					alert("Dosya yüklenirken hata oluştu!");
+					console.log(err);
+				}
+			});
+		}
+
+
+	</script>
+
+}
+
+
+
+
+

@@ -1,0 +1,226 @@
+﻿<!-- Bekleyen Görüş ve Öneriler -->
+<div class="card mb-4">
+    <div class="card-header bg-primary text-white">
+        <h6 class="mt-2">Bekleyen Görüş ve Öneriler</h6>
+    </div>
+    <div class="card-body">
+        <div id="divPendingSuggestions">
+            <table class="table table-striped" id="pendingTable">
+                <thead>
+                    <tr>
+                        <th>Ad Soyad</th>
+                        <th>Mesaj</th>
+                        <th>Okundu</th>
+                        <th>İşlem</th>
+                        <th>Sil</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- İşlem Yapılmış Görüş ve Öneriler -->
+<div class="card">
+    <div class="card-header bg-secondary text-white">
+        <h6 class="mt-2">İşlem Yapılmış Görüş ve Öneriler</h6>
+    </div>
+    <div class="card-body">
+        <div id="divCompletedSuggestions">
+            <table class="table table-striped" id="completedTable">
+                <thead>
+                    <tr>
+                        <th>Ad Soyad</th>
+                        <th>Mesaj</th>
+                        <th>Okundu</th>
+                        <th>İşlem</th>
+                        <th>Sil</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<!-- Delete Modal -->
+<div class="modal fade" id="divDelete" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="staticBackdropLabel">Onay</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <form id="frmDelete">
+                    <input type="hidden" name="pId" id="pId" />
+                </form>
+                Kaydı silme işlemini onaylıyor musunuz ?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">İptal</button>
+                <button type="button" class="btn btn-danger" id="btnDelete">Sil</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function () {
+            loadFeedbacks();
+        });
+
+        function loadFeedbacks() {
+            $.ajax({
+                url: 'https://localhost:2025/api/Feedback/GetAllFeedbacks',
+                type: 'get',
+                contentType: 'application/json',
+                headers: {
+                    'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+                },
+                success: function (data) {
+                    $('#pendingTable tbody').empty();
+                    $('#completedTable tbody').empty();
+
+                    //veriler partial view list olarak değil index içinde direk buradan alındığı için buraya yazıldı
+
+                    data.forEach(item => {
+                            let row = `
+                            <tr>
+                                <td>${item.name} ${item.surname}</td>
+                                <td>${item.message}</td>
+                                <td>
+                                    <button class="btn btn-sm ${item.isRead ? 'btn-success' : 'btn-secondary'} mark-read" data-id="${item.id}">
+                                        ${item.isRead ? 'Okundu' : 'Oku'}
+                                    </button>
+                                </td>`;
+
+                            // İşlem Durumu Butonu
+                            let processButton = "";
+                            if (!item.isPending) {
+                                // Bekleyenler için buton (sarı renk)
+                                processButton = `<button class="btn btn-sm btn-warning mark-pending" data-id="${item.id}">
+                                                    Beklemede
+                                                 </button>`;
+                            } else {
+                                // Tamamlananlar için buton (yeşil renk, pasif)
+                                processButton = `<button class="btn btn-sm btn-success" disabled>
+                                                    Yapıldı
+                                                 </button>`;
+                            }
+
+                            // İşlem sütunu ve Sil butonu
+                            row += `<td>${processButton}</td>
+                                    <td>
+                                        <button class="btn btn-sm btn-danger btnDelete" data-id="${item.id}" data-bs-toggle="modal" data-bs-target="#divDelete">
+                                            Sil
+                                        </button>
+                                    </td>
+                            </tr>`;
+
+                            // Satırı doğru tabloya ekle
+                            if (!item.isPending) {
+                                $('#pendingTable tbody').append(row);
+                            } else {
+                                $('#completedTable tbody').append(row);
+                            }
+                        });
+                },
+                error: function () {
+                    alert("Veri çekilirken hata oluştu.");
+                }
+            });
+        }
+
+        // Okundu butonu
+        $(document).on('click', '.mark-read', function () {
+            const id = $(this).data('id');
+
+            $.ajax({
+                url: 'https://localhost:2025/api/Feedback/UpdateFeedback',
+                type: 'post', 
+                contentType: 'application/json',
+                headers: {
+                    'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+                },
+                data: JSON.stringify({
+                    Id: id,
+                    IsRead: true
+                }),
+                success: function () {
+                    loadFeedbacks();
+                },
+                error: function (xhr) {
+                    console.error(xhr.responseText);
+                    alert("Okundu olarak işaretlenemedi.");
+                }
+            });
+        });
+
+
+        // İşlem bitti butonu
+        $(document).on('click', '.mark-pending', function () {
+            const id = $(this).data('id');
+
+            $.ajax({
+                url: 'https://localhost:2025/api/Feedback/UpdateFeedback',
+                type: 'post',
+                contentType: 'application/json',
+                headers: {
+                    'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+                },
+                data: JSON.stringify({
+                    Id: id,
+                    IsPending: true
+                }),
+                success: function () {
+                    loadFeedbacks();
+                },
+                error: function (xhr) {
+                    console.error(xhr.responseText);
+                    alert("İşlem bitti olarak işaretlenemedi.");
+                }
+            });
+        });
+
+
+
+        $(document).on('click', '.btnDelete', function () {
+            let id = $(this).data('id');
+            $('#pId').val(id);
+        });
+
+        $('#btnDelete').click(function () {
+            let jsonData = GetJSONDataFromForm('frmDelete');
+
+            $.ajax({
+                url: 'https://localhost:2025/api/Feedback/DeleteFeedback',
+                type: 'delete',
+                contentType: 'application/json',
+                data: jsonData,
+                headers: {
+                    'Authorization': 'Bearer ' + localStorage.getItem("jwt")
+                },
+                success: function (response) {
+                    loadFeedbacks();
+                    $('#divDelete').modal('hide');
+                },
+                error: function (err) {
+                    alert("Silme işlemi başarısız oldu.");
+                }
+            });
+        });
+
+
+
+    </script>
+}
+
+

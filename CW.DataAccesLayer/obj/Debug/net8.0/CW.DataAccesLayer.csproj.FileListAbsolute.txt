@@ -1,0 +1,186 @@
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\obj\Debug\net8.0\refint\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\obj\Debug\net8.0\ref\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.runtimeconfig.json
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.AssemblyReference.cache
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.genruntimeconfig.cache
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataA.16AF21B5.Up2Date
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.runtimeconfig.json
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.AssemblyReference.cache
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataA.16AF21B5.Up2Date
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\refint\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.genruntimeconfig.cache
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\ref\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.AssemblyReference.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.runtimeconfig.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataA.16AF21B5.Up2Date
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\obj\Debug\net8.0\refint\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.genruntimeconfig.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.DataAccesLayer\obj\Debug\net8.0\ref\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.runtimeconfig.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.AssemblyReference.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataA.16AF21B5.Up2Date
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\refint\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.genruntimeconfig.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\ref\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.runtimeconfig.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.AssemblyReference.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataA.16AF21B5.Up2Date
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\obj\Debug\net8.0\refint\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.genruntimeconfig.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.DataAccesLayer\obj\Debug\net8.0\ref\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.runtimeconfig.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.AssemblyReference.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataA.16AF21B5.Up2Date
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\obj\Debug\net8.0\refint\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.genruntimeconfig.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.DataAccesLayer\obj\Debug\net8.0\ref\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.runtimeconfig.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.AssemblyReference.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataA.16AF21B5.Up2Date
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\obj\Debug\net8.0\refint\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.genruntimeconfig.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.DataAccesLayer\obj\Debug\net8.0\ref\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.runtimeconfig.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.AssemblyReference.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataA.16AF21B5.Up2Date
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\refint\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.genruntimeconfig.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.DataAccesLayer\obj\Debug\net8.0\ref\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.runtimeconfig.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.AssemblyReference.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataA.16AF21B5.Up2Date
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\obj\Debug\net8.0\refint\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.genruntimeconfig.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.DataAccesLayer\obj\Debug\net8.0\ref\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.runtimeconfig.json
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\bin\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\bin\Debug\net8.0\CW.InterfaceLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.AssemblyReference.cache
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataA.16AF21B5.Up2Date
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\obj\Debug\net8.0\refint\CW.DataAccesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\obj\Debug\net8.0\CW.DataAccesLayer.genruntimeconfig.cache
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.DataAccesLayer\obj\Debug\net8.0\ref\CW.DataAccesLayer.dll

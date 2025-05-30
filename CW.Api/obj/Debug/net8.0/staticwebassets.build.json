@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "TiDEvBQlTySvqsIA7tU4GMTglpz1rPMb3+lKKDfpvNk=",
+  "Source": "CW.Api",
+  "BasePath": "_content/CW.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CW.Api\\wwwroot",
+      "Source": "CW.Api",
+      "ContentRoot": "C:\\Users\\aktas\\source\\repos\\CorporateWebSite4\\CW.Api\\wwwroot\\",
+      "BasePath": "_content/CW.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

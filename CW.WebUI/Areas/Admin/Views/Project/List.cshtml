@@ -1,0 +1,80 @@
+﻿@model List<ProjectDataModel>
+
+
+@if (Model != null && Model.Count > 0)
+{
+	<table class="table  table-hover">
+		<thead>
+			<tr>
+				<th>Id</th>
+				<th>Proje Adı</th>
+				<th>Kısa Açıklama</th>
+				<th>Açıklama</th>
+				<th>Başlangıç Tarihi</th>
+				<th>Bitiş Tarihi</th>
+				<th>Resim 1</th>
+				<th>Resim 2</th>
+				<th>Resim 3</th>
+				<th>Sil</th>
+				<th>Güncelle</th>
+			</tr>
+		
+		</thead>
+		<tbody>
+			@foreach (var item in Model)
+			{
+				<tr class="list">
+					<td>@item.Id</td>
+					<td>@item.Title</td>
+					<td>@item.ShortDescription</td>
+					<td>@item.Description</td>
+					<td>@(item.StartDate.HasValue ? item.StartDate.Value.ToString("dd.MM.yyyy") : "")</td>
+					<td>@(item.EndDate.HasValue ? item.EndDate.Value.ToString("dd.MM.yyyy") : "")</td>
+
+
+					<td><img src="@item.ImageUrl1" class="image-style" /></td>
+					<td><img src="@item.ImageUrl2" class="image-style" /></td>
+					<td><img src="@item.ImageUrl3" class="image-style" /></td>
+					<td>
+						<button class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#divDelete" onclick="SetDeleteItem(@item.Id);">
+							Sil
+						</button>
+					</td>
+					<td>
+						<button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#divAdd"
+								data-id="@item.Id"
+								data-title="@item.Title"
+								data-shortdescription="@item.ShortDescription"
+								data-description="@item.Description"
+								data-startdate="@(item.StartDate.HasValue ? item.StartDate.Value.ToShortDateString() : "")"
+								data-enddate="@(item.EndDate.HasValue ? item.EndDate.Value.ToShortDateString() : "")"
+								data-imageUrl1="@item.ImageUrl1"
+								data-imageUrl2="@item.ImageUrl2"
+								data-imageUrl3="@item.ImageUrl3"
+								data-createdby="@item.CreatedBy"
+								data-createddate="@item.CreatedDate"
+								onclick="SetUpdateItem(this);">
+							Güncelle
+						</button>
+					</td>
+
+				</tr>
+			}
+		</tbody>
+
+	</table>
+
+}
+else
+{
+	<div class="alert alert-warning text-center mt-2 d-flex flex-column align-items-center" role="alert">
+		<span>İlgili Kriterlere Göre Kayıt Bulunamadı.</span>
+		<i class="bi bi-exclamation-triangle-fill fs-1 mt-2"></i>
+	</div>
+
+
+}
+
+
+
+

@@ -1,0 +1,77 @@
+﻿<!-- Hakkımızda Genel Kullanıcı -->
+
+<section class="about_section layout_padding">
+    <div class="container">
+
+        
+        <div class="heading_container heading_navwidth mt-3" style="text-align:center">
+            <h2><span>IA Teknoloji</span></h2>
+            <p id="shortDescId"></p>
+        </div>
+
+        <!-- Fotoğraf ve Açıklama -->
+        <div class="row align-items-center about_content_row mt-4">
+            <div class="col-md-6">
+                <div class="about-img-box">
+                    <img src="" alt="" id="imgId" class="img-fluid" />
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="detail-box mt-2">
+                    <h3 id="titleId"></h3>
+                    <p id="descId" style="text-align: justify;"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Misyon -->
+        <div class="heading_container heading_navwidth mt-5" style="text-align:center">
+            <h2><span>Misyon</span></h2>
+            <p id="missionId"></p>
+        </div>
+
+        <!-- Vizyon -->
+        <div class="heading_container heading_navwidth mt-4" style="text-align:center">
+            <h2><span>Vizyon</span></h2>
+            <p id="visionId"></p>
+        </div>
+
+    </div>
+</section>
+
+<!-- Hakkımızda Genel Kullanıcı Son -->
+
+
+<!-- API den bilgilerin çekilmesi -->
+
+@section Scripts {
+
+	<script type="text/javascript">
+
+		$.ajax({
+			url: 'https://localhost:2025/api/AboutUs/GetAboutUsPublic',
+			type: 'get',
+			contentType: 'application/json',
+			success: function (response) {
+				
+				if (response != undefined) { 
+					$('#titleId').text(response.title);
+					$('#shortDescId').text(response.shortDescription);
+					$('#descId').text(response.description);
+					$('#visionId').text(response.vision);
+					$('#missionId').text(response.mission);
+					$('#imgId').attr('src', response.imageUrl);				
+					
+				}
+			},
+			error: function (hata) {
+				alert(hata);
+			}
+		});
+
+	</script>
+
+}
+
+

@@ -1,0 +1,524 @@
+[
+  {
+    "ContainingType": "CW.Api.Controllers.AboutUsController",
+    "Method": "GetAboutUs",
+    "RelativePath": "api/AboutUs/GetAboutUs",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.AboutUsController",
+    "Method": "GetAboutUsPublic",
+    "RelativePath": "api/AboutUs/GetAboutUsPublic",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.AboutUsController",
+    "Method": "SaveAboutUs",
+    "RelativePath": "api/AboutUs/SaveAboutUs",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "CW.EntitiesLayer.DataModels.AboutUsDataModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.ApplicationController",
+    "Method": "DeleteApplication",
+    "RelativePath": "api/Application/DeleteApplication",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "CW.EntitiesLayer.Parametres.ApplicationDeleteParametres",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.ApplicationController",
+    "Method": "GetAllApplications",
+    "RelativePath": "api/Application/GetAllApplications",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.ApplicationController",
+    "Method": "Save",
+    "RelativePath": "api/Application/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pModel",
+        "Type": "CW.EntitiesLayer.DataModels.ApplicationDataModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.AuthenticationController",
+    "Method": "CheckSession",
+    "RelativePath": "api/Authentication/CheckSession",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.AuthenticationController",
+    "Method": "SignIn",
+    "RelativePath": "api/Authentication/SignIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pUserInfo",
+        "Type": "CW.EntitiesLayer.Parametres.SignInParametres",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.CareerController",
+    "Method": "DeleteCareer",
+    "RelativePath": "api/Career/DeleteCareer",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "CW.EntitiesLayer.Parametres.CareerDeleteParametres",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.CareerController",
+    "Method": "GetCareerList",
+    "RelativePath": "api/Career/GetCareerList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.CareerController",
+    "Method": "GetCareerListPublic",
+    "RelativePath": "api/Career/GetCareerListPublic",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.CareerController",
+    "Method": "SaveCareer",
+    "RelativePath": "api/Career/SaveCareer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pModel",
+        "Type": "CW.EntitiesLayer.DataModels.CareerDataModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.FeedbackController",
+    "Method": "DeleteFeedback",
+    "RelativePath": "api/Feedback/DeleteFeedback",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "CW.EntitiesLayer.Parametres.FeedbackDeleteParametres",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.FeedbackController",
+    "Method": "GetAllFeedbacks",
+    "RelativePath": "api/Feedback/GetAllFeedbacks",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.FeedbackController",
+    "Method": "Save",
+    "RelativePath": "api/Feedback/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pModel",
+        "Type": "CW.EntitiesLayer.DataModels.FeedbackDataModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.FeedbackController",
+    "Method": "UpdateFeedback",
+    "RelativePath": "api/Feedback/UpdateFeedback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pModel",
+        "Type": "CW.EntitiesLayer.DataModels.FeedbackUpdateDataModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.FileUploadController",
+    "Method": "Upload",
+    "RelativePath": "api/FileUpload/Upload",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.FileUploadController",
+    "Method": "UploadAllFiles",
+    "RelativePath": "api/FileUpload/UploadAllFiles",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "files",
+        "Type": "System.Collections.Generic.List\u00601[[Microsoft.AspNetCore.Http.IFormFile, Microsoft.AspNetCore.Http.Features, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.FileUploadController",
+    "Method": "UploadCareerFile",
+    "RelativePath": "api/FileUpload/UploadCareerFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.FileUploadController",
+    "Method": "UploadHomeFile",
+    "RelativePath": "api/FileUpload/UploadHomeFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.FileUploadController",
+    "Method": "UploadTeamFile",
+    "RelativePath": "api/FileUpload/UploadTeamFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.HomeController",
+    "Method": "DeleteHomePage",
+    "RelativePath": "api/Home/DeleteHomePage",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "CW.EntitiesLayer.Parametres.HomeDeleteParametres",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.HomeController",
+    "Method": "GetHomePageList",
+    "RelativePath": "api/Home/GetHomePageList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.HomeController",
+    "Method": "GetHomePageListPublic",
+    "RelativePath": "api/Home/GetHomePageListPublic",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.HomeController",
+    "Method": "SaveHomePage",
+    "RelativePath": "api/Home/SaveHomePage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pModel",
+        "Type": "CW.EntitiesLayer.DataModels.HomeDataModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.LookUpController",
+    "Method": "GetExperiences",
+    "RelativePath": "api/LookUp/GetExperiences",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.LookUpController",
+    "Method": "GetJobCategories",
+    "RelativePath": "api/LookUp/GetJobCategories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.LookUpController",
+    "Method": "GetSkills",
+    "RelativePath": "api/LookUp/GetSkills",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.ProjectController",
+    "Method": "DeleteProject",
+    "RelativePath": "api/Project/DeleteProject",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "CW.EntitiesLayer.Parametres.ProjectDeleteParametres",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.ProjectController",
+    "Method": "GetProjectList",
+    "RelativePath": "api/Project/GetProjectList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.ProjectController",
+    "Method": "GetPublicProjectList",
+    "RelativePath": "api/Project/GetPublicProjectList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Title",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "StartDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "EndDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.ProjectController",
+    "Method": "Save",
+    "RelativePath": "api/Project/Save",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pModel",
+        "Type": "CW.EntitiesLayer.DataModels.ProjectDataModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.TeamController",
+    "Method": "DeleteTeam",
+    "RelativePath": "api/Team/DeleteTeam",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "param",
+        "Type": "CW.EntitiesLayer.Parametres.TeamDeleteParametres",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.TeamController",
+    "Method": "GetTeamList",
+    "RelativePath": "api/Team/GetTeamList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.TeamController",
+    "Method": "GetTeamListPublic",
+    "RelativePath": "api/Team/GetTeamListPublic",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CW.Api.Controllers.TeamController",
+    "Method": "SaveTeam",
+    "RelativePath": "api/Team/SaveTeam",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pModel",
+        "Type": "CW.EntitiesLayer.DataModels.TeamDataModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

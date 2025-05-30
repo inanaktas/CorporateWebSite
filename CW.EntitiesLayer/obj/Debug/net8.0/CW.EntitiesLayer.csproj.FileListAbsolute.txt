@@ -1,0 +1,110 @@
+C:\Users\aktas\source\repos\CorporateWebSite\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSite\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSite\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSite\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSite\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSite\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite\CW.EntitiesLayer\obj\Debug\net8.0\refint\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite\CW.EntitiesLayer\obj\Debug\net8.0\ref\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\refint\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\ref\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.EntitiesLayer\obj\Debug\net8.0\refint\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy\CW.EntitiesLayer\obj\Debug\net8.0\ref\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\refint\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\ref\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.EntitiesLayer\obj\Debug\net8.0\refint\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy1\CW.EntitiesLayer\obj\Debug\net8.0\ref\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.EntitiesLayer\obj\Debug\net8.0\refint\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy2\CW.EntitiesLayer\obj\Debug\net8.0\ref\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.EntitiesLayer\obj\Debug\net8.0\refint\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3\CW.EntitiesLayer\obj\Debug\net8.0\ref\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\refint\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy3 - Kopya\CW.EntitiesLayer\obj\Debug\net8.0\ref\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.EntitiesLayer\obj\Debug\net8.0\refint\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSiteCopy4\CW.EntitiesLayer\obj\Debug\net8.0\ref\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.deps.json
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.EntitiesLayer\bin\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfoInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.AssemblyInfo.cs
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.csproj.CoreCompileInputs.cache
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.EntitiesLayer\obj\Debug\net8.0\refint\CW.EntitiesLayer.dll
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.EntitiesLayer\obj\Debug\net8.0\CW.EntitiesLayer.pdb
+C:\Users\aktas\source\repos\CorporateWebSite4\CW.EntitiesLayer\obj\Debug\net8.0\ref\CW.EntitiesLayer.dll

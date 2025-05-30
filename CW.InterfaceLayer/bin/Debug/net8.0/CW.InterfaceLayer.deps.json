@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CW.InterfaceLayer/1.0.0": {
+        "dependencies": {
+          "CW.EntitiesLayer": "1.0.0"
+        },
+        "runtime": {
+          "CW.InterfaceLayer.dll": {}
+        }
+      },
+      "CW.EntitiesLayer/1.0.0": {
+        "runtime": {
+          "CW.EntitiesLayer.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CW.InterfaceLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CW.EntitiesLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
